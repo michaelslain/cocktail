@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "Drug" ALTER COLUMN "testingKits" DROP NOT NULL,
+ALTER COLUMN "testingKits" SET DATA TYPE TEXT;

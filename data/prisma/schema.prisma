@@ -1,0 +1,53 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Drug {
+  id                String            @id @default(uuid())
+  names             String[]
+  type              String?
+  dosages           Dosage[]
+  interactions      DrugInteraction[] @relation("DrugToInteraction")
+  lacedBy           Drug[]            @relation("DrugLacing")
+  laces             Drug[]            @relation("DrugLacing")
+  lacingPrevalence  LacingPrevalence?
+  testingKit        String?
+  effects           String[]
+  harmReductionTips String[]
+  halfLife          Float? // in minutes
+  onsetTime         Float? // in minutes
+}
+
+model Dosage {
+  id     String @id @default(uuid())
+  level  String
+  amount Float
+  unit   String
+  drug   Drug   @relation(fields: [drugId], references: [id])
+  drugId String
+}
+
+model DrugInteraction {
+  id          String          @id @default(uuid())
+  type        InteractionType
+  description String
+  drugs       Drug[]          @relation("DrugToInteraction")
+}
+
+enum InteractionType {
+  LETHAL
+  DANGEROUS
+  PSYCHOLOGICALLY_DIFFICULT
+}
+
+enum LacingPrevalence {
+  HIGH
+  MODERATE
+  LOW
+  RARE
+}

@@ -1,0 +1,100 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+/data/logs
+/data/*.log
+/data/npm-debug.log*
+/data/yarn-debug.log*
+/data/yarn-error.log*
+/data/lerna-debug.log*
+/data/.pnpm-debug.log*
+/data/.cache
+/data/report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+/data/pids
+/data/*.pid
+/data/*.seed
+/data/*.pid.lock
+/data/lib-cov
+/data/coverage
+/data/*.lcov
+/data/.nyc_output
+/data/.grunt
+/data/bower_components
+/data/.lock-wscript
+/data/build/Release
+/data/node_modules/
+/data/jspm_packages/
+/data/web_modules/
+/data/*.tsbuildinfo
+/data/.npm
+/data/.eslintcache
+/data/.stylelintcache
+/data/.rpt2_cache/
+/data/.rts2_cache_cjs/
+/data/.rts2_cache_es/
+/data/.rts2_cache_umd/
+/data/.node_repl_history
+/data/*.tgz
+/data/.yarn-integrity
+/data/.env
+/data/.env.development.local
+/data/.env.test.local
+/data/.env.production.local
+/data/.env.local
+/data/.parcel-cache
+/data/.next
+/data/out
+/data/.nuxt
+/data/dist
+/data/.vuepress/dist
+/data/.temp
+/data/.docusaurus
+/data/.serverless/
+/data/.fusebox/
+/data/.dynamodb/
+/data/.tern-port
+/data/.vscode-test
+/data/.yarn/cache
+/data/.yarn/unplugged
+/data/.yarn/build-state.yml
+/data/.yarn/install-state.gz
+/data/.pnp.*
+/data/.idea
+/data/.DS_Store
+/data/export/data.csv
+/data/export/data.json
+/data/data

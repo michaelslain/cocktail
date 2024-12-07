@@ -1,0 +1,39 @@
+{
+    "name": "scripts",
+    "module": "index.ts",
+    "type": "module",
+    "scripts": {
+        "update-schema": "npx prisma migrate dev --name update-schema && npx prisma generate",
+        "clear": "bun scripts/clear.ts",
+        "search": "bun scripts/search.ts",
+        "process-all": "bun run process-names && bun run process-main-effects && bun run process-interactions && bun run process-testing-kits && bun run process-lacing && bun run process-harm-reduction-tips",
+        "reset": "bun run clear && bun run process-all",
+        "process-names": "bun scripts/processNames.ts",
+        "process-main-effects": "bun scripts/processMainEffects.ts",
+        "process-interactions": "bun scripts/processInteractions.ts",
+        "missing-drugs-from-interactions": "bun scripts/missingDrugsFromInteractions.ts",
+        "process-testing-kits": "bun scripts/processTestingKits.ts",
+        "process-lacing": "bun scripts/processLacing.ts",
+        "find-missing": "bun scripts/findMissing.ts",
+        "process-harm-reduction-tips": "bun scripts/processHarmReductionTips.ts",
+        "find-missing-fields": "bun scripts/findMissingFields.ts",
+        "get-dosages": "bun scripts/getDosages.ts",
+        "export-csv": "bun export/exportToCSV.ts",
+        "export-json": "bun export/exportToJSON.ts"
+    },
+    "devDependencies": {
+        "@types/bun": "latest"
+    },
+    "peerDependencies": {
+        "typescript": "^5.6.3"
+    },
+    "dependencies": {
+        "@anthropic-ai/sdk": "^0.32.1",
+        "@prisma/client": "^5.22.0",
+        "axios": "^1.7.9",
+        "csv-parse": "^5.6.0",
+        "csv-parser": "^3.0.0",
+        "prisma": "^5.22.0",
+        "puppeteer": "^23.10.1"
+    }
+}
