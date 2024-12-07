@@ -1,3 +1,3 @@
 # Cocktail
 
-### Drug Satefty App
+### Drug Safety App
