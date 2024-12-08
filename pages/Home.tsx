@@ -1,9 +1,11 @@
 import { FC, useState, useMemo } from 'react'
-import { View, Text, Modal, TouchableOpacity } from 'react-native'
+import { View, Modal, TouchableOpacity } from 'react-native'
 import Search from '../components/Search'
 import { getByIds, findInteractionsBetween } from '../util/drugs'
 import Drug from '../components/Drug'
 import styles from './Home.style'
+import Text from '../components/Text'
+import Button from '../components/Button'
 
 const Home: FC = () => {
     const [selectedDrugIds, setSelectedDrugIds] = useState<string[]>([])
@@ -49,7 +51,7 @@ const Home: FC = () => {
                     <Drug {...{ drug, deleteById }} key={drug.id} />
                 ))}
             </View>
-            <TouchableOpacity
+            <Button
                 style={styles.interactionContainer}
                 onPress={toggleInteractions}
             >
@@ -71,7 +73,7 @@ const Home: FC = () => {
                             return <Text style={styles.label}>✅ Safe</Text>
                     }
                 })()}
-            </TouchableOpacity>
+            </Button>
             {showInteractions && interactions.length > 0 && (
                 <Modal
                     visible={showInteractions}
@@ -93,12 +95,12 @@ const Home: FC = () => {
                                     </Text>
                                 </View>
                             ))}
-                            <TouchableOpacity
+                            <Button
                                 style={styles.closeButton}
                                 onPress={toggleInteractions}
                             >
-                                <Text>X</Text>
-                            </TouchableOpacity>
+                                X
+                            </Button>
                         </View>
                     </View>
                 </Modal>

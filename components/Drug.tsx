@@ -1,8 +1,10 @@
 import { FC } from 'react'
-import { View, Text, TouchableOpacity } from 'react-native'
+import { View } from 'react-native'
 import { Drug as DrugType } from '../util/drugs'
 import styles from './Drug.style'
 import { useNavigation } from '../contexts/NavigationContext'
+import Button from './Button'
+import Text from './Text'
 
 interface DrugProps {
     drug: DrugType
@@ -23,7 +25,7 @@ export const Drug: FC<DrugProps> = ({ drug, deleteById }) => {
 
     return (
         <View style={styles.container}>
-            <TouchableOpacity style={styles.drugContent} onPress={handlePress}>
+            <Button style={styles.drugContent} onPress={handlePress}>
                 <Text style={styles.primaryName}>{drug.names[0]}</Text>
                 <View style={styles.secondaryNameContainer}>
                     {drug.names.slice(1).map((name, index) => (
@@ -33,13 +35,10 @@ export const Drug: FC<DrugProps> = ({ drug, deleteById }) => {
                     ))}
                 </View>
                 <Text style={styles.type}>{drug.type}</Text>
-            </TouchableOpacity>
-            <TouchableOpacity
-                style={styles.deleteButton}
-                onPress={handleDelete}
-            >
-                <Text style={styles.deleteButtonText}>Delete</Text>
-            </TouchableOpacity>
+            </Button>
+            <Button style={styles.deleteButton} onPress={handleDelete}>
+                Delete
+            </Button>
         </View>
     )
 }

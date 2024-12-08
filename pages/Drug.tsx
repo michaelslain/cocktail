@@ -1,8 +1,11 @@
 import { FC, useMemo } from 'react'
-import { View, Text, TouchableOpacity, Linking } from 'react-native'
+import { Linking, View } from 'react-native'
 import { useNavigation } from '../contexts/NavigationContext'
 import { getById } from '../util/drugs'
 import styles from './Drug.style'
+import Text from '../components/Text'
+import Button from '../components/Button'
+import HyperLink from '../components/HyperLink'
 
 const Drug: FC = () => {
     const { currentDrugId, setCurrentPage } = useNavigation()
@@ -16,12 +19,12 @@ const Drug: FC = () => {
 
     return (
         <View style={styles.container}>
-            <TouchableOpacity
+            <Button
                 style={styles.closeButton}
                 onPress={() => setCurrentPage('home')}
             >
-                <Text>X</Text>
-            </TouchableOpacity>
+                X
+            </Button>
             <Text style={styles.primaryName}>{drug?.names[0]}</Text>
             <View style={styles.secondaryNamesContainer}>
                 {drug?.names.slice(1).map((name, index) => (
@@ -57,14 +60,14 @@ const Drug: FC = () => {
             {drug?.testingKit && (
                 <Text style={styles.label}>
                     Testing Kit:{' '}
-                    <Text
+                    <HyperLink
                         style={[styles.value, styles.link]}
                         onPress={() =>
                             drug.testingKit && Linking.openURL(drug.testingKit)
                         }
                     >
                         {drug.testingKit}
-                    </Text>
+                    </HyperLink>
                 </Text>
             )}
             {drug?.lacingPrevalence !== null && (

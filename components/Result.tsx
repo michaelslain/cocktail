@@ -1,7 +1,8 @@
 import { FC } from 'react'
-import { Text, TouchableOpacity } from 'react-native'
+import { TouchableOpacity } from 'react-native'
 import styles from './Result.style'
 import { Drug } from '../util/drugs'
+import Text from './Text'
 
 interface ResultProps {
     drug: Drug
