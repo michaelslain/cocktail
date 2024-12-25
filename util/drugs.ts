@@ -41,12 +41,9 @@ export function getByIds(ids: string[]): Drug[] {
     return getAll().filter(drug => ids.includes(drug.id))
 }
 
-export function findInteractionsBetween(
-    drugNames: string[]
-): DrugInteraction[] {
-    if (drugNames.length < 2) return []
-
-    const normalizedNames = drugNames.map(name => name.toLowerCase())
+export function findInteractionsBetween(drugIds: string[]): DrugInteraction[] {
+    const drugs = getByIds(drugIds)
+    const drugNames = drugs.map(drug => drug.names[0].toLowerCase())
     const interactions: DrugInteraction[] = []
 
     getAll().forEach(drug => {
@@ -55,12 +52,32 @@ export function findInteractionsBetween(
                 d.toLowerCase()
             )
 
-            // Check if all provided drug names are involved in this interaction
-            const isRelevant = normalizedNames.every(name =>
+            // Check if the interaction involves exactly the selected drugs
+            const allSelectedDrugsInvolved = drugNames.every(name =>
                 interactingDrugsLower.includes(name)
             )
+            const noExtraDrugsInvolved = interactingDrugsLower.every(name =>
+                drugNames.includes(name)
+            )
 
-            if (isRelevant && !interactions.includes(interaction)) {
+            // Check if this interaction is unique
+            const isDuplicate = interactions.some(
+                existingInteraction =>
+                    existingInteraction.type === interaction.type &&
+                    existingInteraction.description ===
+                        interaction.description &&
+                    existingInteraction.interactingDrugs.length ===
+                        interaction.interactingDrugs.length &&
+                    existingInteraction.interactingDrugs.every(drug =>
+                        interaction.interactingDrugs.includes(drug)
+                    )
+            )
+
+            if (
+                allSelectedDrugsInvolved &&
+                noExtraDrugsInvolved &&
+                !isDuplicate
+            ) {
                 interactions.push(interaction)
             }
         })

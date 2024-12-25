@@ -6,7 +6,7 @@ import React, {
     ReactNode,
 } from 'react'
 
-type Page = 'home' | 'drug'
+type Page = 'home' | 'drug' | 'interactions'
 
 interface NavigationContextType {
     currentPage: Page

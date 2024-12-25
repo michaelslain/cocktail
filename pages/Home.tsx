@@ -1,111 +1,103 @@
-import { FC, useState, useMemo } from 'react'
-import { View, Modal, TouchableOpacity } from 'react-native'
+import { FC, useMemo } from 'react'
+import { View } from 'react-native'
 import Search from '../components/Search'
 import { getByIds, findInteractionsBetween } from '../util/drugs'
 import Drug from '../components/Drug'
 import styles from './Home.style'
 import Text from '../components/Text'
 import Button from '../components/Button'
+import { useSelectedDrugs } from '../contexts/SelectedDrugsContext'
+import { useNavigation } from '../contexts/NavigationContext'
 
 const Home: FC = () => {
-    const [selectedDrugIds, setSelectedDrugIds] = useState<string[]>([])
-    const [showInteractions, setShowInteractions] = useState(false)
+    const { selectedDrugIds, removeDrug } = useSelectedDrugs()
+    const { setCurrentPage } = useNavigation()
 
     const selectedDrugs = useMemo(
         () => getByIds(selectedDrugIds),
         [selectedDrugIds]
     )
 
-    const { interactions, mostDangerousType } = useMemo(() => {
+    const { mostDangerousType } = useMemo(() => {
         const interactions = findInteractionsBetween(selectedDrugIds)
         const dangerLevels = [
             'PSYCHOLOGICALLY_DIFFICULT',
             'DANGEROUS',
             'LETHAL',
-        ]
+        ] as const
+
+        if (interactions.length === 0) {
+            return { interactions, mostDangerousType: 'SAFE' }
+        }
 
         const mostDangerousType = interactions.reduce(
             (maxType, interaction) => {
                 const currentLevel = dangerLevels.indexOf(interaction.type)
-                const maxLevel = dangerLevels.indexOf(maxType)
+                const maxLevel = dangerLevels.indexOf(
+                    maxType as (typeof dangerLevels)[number]
+                )
                 return currentLevel > maxLevel ? interaction.type : maxType
             },
-            '' as (typeof dangerLevels)[number]
+            'PSYCHOLOGICALLY_DIFFICULT' as (typeof dangerLevels)[number]
         )
 
         return { interactions, mostDangerousType }
     }, [selectedDrugIds])
 
-    const handleSelectDrug = (id: string): void =>
-        setSelectedDrugIds([...selectedDrugIds, id])
+    const calculatePosition = (index: number, total: number) => {
+        if (total === 0) return { position: 'absolute' as const }
 
-    const deleteById = (id: string): void =>
-        setSelectedDrugIds(selectedDrugIds.filter(drugId => drugId !== id))
+        const plateRadius = 150
+        const radius = 100
+        const angle = (2 * Math.PI * index) / total
 
-    const toggleInteractions = () => setShowInteractions(!showInteractions)
+        return {
+            position: 'absolute' as const,
+            left: plateRadius + radius * Math.cos(angle) - 60,
+            top: plateRadius + radius * Math.sin(angle) - 40,
+        }
+    }
 
     return (
         <View style={styles.container}>
             <View style={styles.plate}>
-                {selectedDrugs.map(drug => (
-                    <Drug {...{ drug, deleteById }} key={drug.id} />
+                {selectedDrugs.map((drug, i) => (
+                    <Drug
+                        drug={drug}
+                        deleteById={removeDrug}
+                        key={drug.id}
+                        style={calculatePosition(i, selectedDrugs.length)}
+                    />
                 ))}
-            </View>
-            <Button
-                style={styles.interactionContainer}
-                onPress={toggleInteractions}
-            >
-                {(() => {
-                    switch (mostDangerousType) {
-                        case 'PSYCHOLOGICALLY_DIFFICULT':
-                            return (
-                                <Text style={styles.label}>
-                                    ⚠️ Psychologically Difficult
-                                </Text>
-                            )
-                        case 'DANGEROUS':
-                            return (
-                                <Text style={styles.label}>⛔️ Dangerous</Text>
-                            )
-                        case 'LETHAL':
-                            return <Text style={styles.label}>💀 Lethal</Text>
-                        default:
-                            return <Text style={styles.label}>✅ Safe</Text>
-                    }
-                })()}
-            </Button>
-            {showInteractions && interactions.length > 0 && (
-                <Modal
-                    visible={showInteractions}
-                    transparent
-                    onRequestClose={toggleInteractions}
+                <Button
+                    style={styles.interactionContainer}
+                    onPress={() => setCurrentPage('interactions')}
                 >
-                    <View style={styles.modalOverlay}>
-                        <View style={styles.modalContent}>
-                            {interactions.map((interaction, index) => (
-                                <View
-                                    key={index}
-                                    style={styles.interactionItem}
-                                >
-                                    <Text style={styles.interactionType}>
-                                        {interaction.type}
+                    {(() => {
+                        switch (mostDangerousType) {
+                            case 'PSYCHOLOGICALLY_DIFFICULT':
+                                return (
+                                    <Text style={styles.label}>
+                                        ⚠️ Psychologically Difficult
                                     </Text>
-                                    <Text style={styles.interactionDescription}>
-                                        {interaction.description}
+                                )
+                            case 'DANGEROUS':
+                                return (
+                                    <Text style={styles.label}>
+                                        ⛔️ Dangerous
                                     </Text>
-                                </View>
-                            ))}
-                            <Button
-                                style={styles.closeButton}
-                                onPress={toggleInteractions}
-                            >
-                                X
-                            </Button>
-                        </View>
-                    </View>
-                </Modal>
-            )}
-            <Search onSelectDrug={handleSelectDrug} />
+                                )
+                            case 'LETHAL':
+                                return (
+                                    <Text style={styles.label}>💀 Lethal</Text>
+                                )
+                            default:
+                                return <Text style={styles.label}>✅ Safe</Text>
+                        }
+                    })()}
+                </Button>
+            </View>
+            <Search />
         </View>
     )
 }

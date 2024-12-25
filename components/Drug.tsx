@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import { View } from 'react-native'
+import { View, StyleProp, ViewStyle, TouchableOpacity } from 'react-native'
 import { Drug as DrugType } from '../util/drugs'
 import styles from './Drug.style'
 import { useNavigation } from '../contexts/NavigationContext'
@@ -9,9 +9,10 @@ import Text from './Text'
 interface DrugProps {
     drug: DrugType
     deleteById: (id: string) => void
+    style?: StyleProp<ViewStyle>
 }
 
-export const Drug: FC<DrugProps> = ({ drug, deleteById }) => {
+export const Drug: FC<DrugProps> = ({ drug, deleteById, style }) => {
     const { setCurrentDrugId, setCurrentPage } = useNavigation()
 
     const handlePress = () => {
@@ -19,27 +20,22 @@ export const Drug: FC<DrugProps> = ({ drug, deleteById }) => {
         setCurrentPage('drug')
     }
 
-    const handleDelete = () => {
-        deleteById(drug.id)
-    }
-
     return (
-        <View style={styles.container}>
-            <Button style={styles.drugContent} onPress={handlePress}>
+        <TouchableOpacity
+            style={[styles.container, style]}
+            onPress={handlePress}
+        >
+            <View style={styles.drugContent}>
                 <Text style={styles.primaryName}>{drug.names[0]}</Text>
-                <View style={styles.secondaryNameContainer}>
-                    {drug.names.slice(1).map((name, index) => (
-                        <Text style={styles.secondaryName} key={index}>
-                            {name}
-                        </Text>
-                    ))}
-                </View>
                 <Text style={styles.type}>{drug.type}</Text>
+            </View>
+            <Button
+                style={styles.deleteButton}
+                onPress={() => deleteById(drug.id)}
+            >
+                <Text style={styles.deleteButtonText}>×</Text>
             </Button>
-            <Button style={styles.deleteButton} onPress={handleDelete}>
-                Delete
-            </Button>
-        </View>
+        </TouchableOpacity>
     )
 }
 

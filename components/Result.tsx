@@ -1,25 +1,28 @@
 import { FC } from 'react'
 import { TouchableOpacity } from 'react-native'
-import styles from './Result.style'
 import { Drug } from '../util/drugs'
 import Text from './Text'
+import styles from '../pages/Home.style'
 
 interface ResultProps {
     drug: Drug
-    onSelect?: (id: string) => void
+    onSelect: (drugId: string) => void
 }
 
 export const Result: FC<ResultProps> = ({ drug, onSelect }) => {
-    const handlePress = () => {
-        if (onSelect) onSelect(drug.id)
-    }
-
     return (
-        <TouchableOpacity style={styles.container} onPress={handlePress}>
-            <Text style={styles.name}>{drug.names[0]}</Text>
-            <Text style={styles.secondaryNames}>
-                {drug.names.slice(1).join(', ')}
+        <TouchableOpacity
+            style={styles.searchResultItem}
+            onPress={() => onSelect(drug.id)}
+        >
+            <Text style={{ fontSize: 16, fontWeight: '600' }}>
+                {drug.names[0]}
             </Text>
+            {drug.names.length > 1 && (
+                <Text style={{ fontSize: 14, color: '#666', marginTop: 4 }}>
+                    {drug.names.slice(1).join(', ')}
+                </Text>
+            )}
         </TouchableOpacity>
     )
 }
