@@ -95,6 +95,5 @@ yarn-error.*
 /data/.pnp.*
 /data/.idea
 /data/.DS_Store
-/data/export/data.csv
 /data/export/data.json
 /data/data
