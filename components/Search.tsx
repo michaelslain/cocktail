@@ -22,10 +22,10 @@ const Search: FC = () => {
     const handleSubmit = () => {
         if (results.length === 1) {
             addDrug(results[0].id)
-            setQuery('')
-            setIsFocused(false)
-            Keyboard.dismiss()
         }
+        setQuery('')
+        setIsFocused(false)
+        Keyboard.dismiss()
     }
 
     const handleSelect = (drugId: string) => {
@@ -37,6 +37,7 @@ const Search: FC = () => {
 
     const handleDismiss = () => {
         setIsFocused(false)
+        setQuery('')
         Keyboard.dismiss()
     }
 
@@ -56,6 +57,9 @@ const Search: FC = () => {
                                 value={query}
                                 onChangeText={text => setQuery(text)}
                                 onSubmitEditing={handleSubmit}
+                                onBlur={handleDismiss}
+                                blurOnSubmit
+                                returnKeyType="search"
                                 autoFocus
                             />
                             <FlatList
@@ -93,6 +97,9 @@ const Search: FC = () => {
                 value={query}
                 onChangeText={text => setQuery(text)}
                 onSubmitEditing={handleSubmit}
+                onBlur={handleDismiss}
+                blurOnSubmit
+                returnKeyType="search"
                 onFocus={() => setIsFocused(true)}
             />
         </View>
