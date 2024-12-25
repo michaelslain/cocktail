@@ -1,0 +1,3767 @@
+[
+    {
+        "id": "8f177d73-4259-455d-b4b1-c25eeaafe3f6",
+        "names": [
+            "Psilocybin",
+            "Magic Mushrooms",
+            "Shrooms",
+            "Boomers",
+            "Caps",
+            "Golden Teachers"
+        ],
+        "type": "hallucinogen",
+        "lacingPrevalence": null,
+        "testingKit": "https://dancesafe.org/product/psilocybin-testing-kit",
+        "effects": [
+            "Hallucinations",
+            "Altered perception",
+            "Euphoria",
+            "Spiritual experiences"
+        ],
+        "harmReductionTips": [
+            "Use in a safe and familiar environment.",
+            "Have a sober trip sitter if inexperienced.",
+            "Start with a low dose to gauge effects.",
+            "Avoid if prone to mental health issues."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Overwhelming hallucinations and sensory overload.",
+                "interactingDrugs": ["Psilocybin", "4-AcO-DMT"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Overwhelming hallucinations and emotional instability.",
+                "interactingDrugs": ["Psilocybin", "LSD", "Salvia Divinorum"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Severe emotional overload and panic.",
+                "interactingDrugs": ["Psilocybin", "Cannabis", "DMT"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Overwhelming emotional distress and confusion.",
+                "interactingDrugs": ["Psilocybin", "LSD", "DMT"]
+            }
+        ],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "e87d45cd-9e95-4944-8da4-9d2191c76a22",
+        "names": ["Cocaine", "Coke", "Blow", "Snow"],
+        "type": "stimulant",
+        "lacingPrevalence": null,
+        "testingKit": "https://dancesafe.org/product/cocaine-testing-kit",
+        "effects": [
+            "Increased energy",
+            "Euphoria",
+            "Alertness",
+            "Decreased appetite"
+        ],
+        "harmReductionTips": [
+            "Avoid frequent use to reduce addiction risk.",
+            "Test for contaminants like fentanyl.",
+            "Use clean tools to avoid infections.",
+            "Stay hydrated and avoid mixing with alcohol."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "DANGEROUS",
+                "description": "Cardiovascular strain, risk of heart attack or stroke.",
+                "interactingDrugs": ["Cocaine", "Adderall"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Severe dehydration and overheating.",
+                "interactingDrugs": ["Cocaine", "MDMA"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Paranoia and confusion from conflicting effects.",
+                "interactingDrugs": ["Cocaine", "Cannabis"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Severe blood pressure spikes and stroke risk.",
+                "interactingDrugs": ["Cocaine", "Pseudoephedrine"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Toxic compound formation (cocaethylene) leading to heart issues.",
+                "interactingDrugs": ["Cocaine", "Alcohol"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Dangerous blood pressure spikes and hyperthermia.",
+                "interactingDrugs": ["Cocaine", "Methamphetamine"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Heart failure due to excessive stimulant use.",
+                "interactingDrugs": ["Cocaine", "Alpha-PVP"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Severe cardiovascular strain from stimulants.",
+                "interactingDrugs": ["Cocaine", "Propofol"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Heart failure from combined stimulant effects.",
+                "interactingDrugs": ["Cocaine", "Mephedrone"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Severe cardiovascular strain, dehydration, and overheating.",
+                "interactingDrugs": ["Cocaine", "MDMA", "Methamphetamine"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Heart failure and cardiovascular collapse.",
+                "interactingDrugs": ["Cocaine", "Adderall", "Pseudoephedrine"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Severe dehydration, overheating, and cardiovascular strain.",
+                "interactingDrugs": ["Cocaine", "Adderall", "MDMA"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Heart failure due to combined stimulant overload.",
+                "interactingDrugs": ["Cocaine", "Methamphetamine", "Alpha-PVP"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Severe cardiovascular strain and hyperthermia.",
+                "interactingDrugs": ["Cocaine", "Mephedrone", "MDMA"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Severe agitation and cardiovascular risk.",
+                "interactingDrugs": ["Cocaine", "Adderall", "Alpha-PVP"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Severe cardiac strain causing heart failure.",
+                "interactingDrugs": [
+                    "Cocaine",
+                    "Pseudoephedrine",
+                    "Methamphetamine"
+                ]
+            }
+        ],
+        "lacedBy": [
+            {
+                "name": "Caffeine",
+                "prevalence": 0
+            },
+            {
+                "name": "Fentanyl",
+                "prevalence": null
+            }
+        ],
+        "laces": []
+    },
+    {
+        "id": "f9f725d0-28ba-4d06-a86f-a067dfc74174",
+        "names": ["PCP", "Angel Dust"],
+        "type": "dissociative",
+        "lacingPrevalence": null,
+        "testingKit": "https://dancesafe.org/product/pcp-testing-kit",
+        "effects": [
+            "Dissociation",
+            "Hallucinations",
+            "Euphoria",
+            "Aggression in high doses"
+        ],
+        "harmReductionTips": [
+            "Start with a low dose in a safe place.",
+            "Avoid mixing with alcohol or depressants.",
+            "Do not drive or operate machinery after use.",
+            "Stay hydrated and monitor bladder health."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "DANGEROUS",
+                "description": "Unpredictable dissociation and sedation.",
+                "interactingDrugs": ["PCP", "Ketamine"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Paranoia and extreme confusion.",
+                "interactingDrugs": ["PCP", "Methamphetamine"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Paranoia and psychosis.",
+                "interactingDrugs": ["PCP", "Cannabis", "Methamphetamine"]
+            }
+        ],
+        "lacedBy": [
+            {
+                "name": "Ketamine",
+                "prevalence": null
+            }
+        ],
+        "laces": [
+            {
+                "name": "Cannabis",
+                "prevalence": null
+            }
+        ]
+    },
+    {
+        "id": "8951e96c-67d8-4d5c-9633-4f99d3be28b5",
+        "names": ["Nitrous Oxide", "Whippets"],
+        "type": "dissociative",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Euphoria", "Laughter", "Mild dissociation", "Sedation"],
+        "harmReductionTips": [
+            "Start with a low dose in a safe place.",
+            "Avoid mixing with alcohol or depressants.",
+            "Do not drive or operate machinery after use.",
+            "Stay hydrated and monitor bladder health."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "44e20a4e-69aa-4859-9130-730925bdf5c8",
+        "names": ["Mescaline", "Peyote", "Buttons", "Cactus", "San Pedro"],
+        "type": "hallucinogen",
+        "lacingPrevalence": null,
+        "testingKit": "https://dancesafe.org/product/mescaline-testing-kit",
+        "effects": [
+            "Hallucinations",
+            "Euphoria",
+            "Spiritual experiences",
+            "Enhanced sensory perception"
+        ],
+        "harmReductionTips": [
+            "Use in a safe and familiar environment.",
+            "Have a sober trip sitter if inexperienced.",
+            "Start with a low dose to gauge effects.",
+            "Avoid if prone to mental health issues."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "49259cfe-b537-4b92-8d33-c22728baec36",
+        "names": ["Adderall"],
+        "type": "stimulant",
+        "lacingPrevalence": null,
+        "testingKit": "https://dancesafe.org/product/methamphetamine-testing-kit",
+        "effects": [
+            "Increased focus",
+            "Increased energy",
+            "Alertness",
+            "Euphoria"
+        ],
+        "harmReductionTips": [
+            "Avoid frequent use to reduce addiction risk.",
+            "Test for contaminants like fentanyl.",
+            "Use clean tools to avoid infections.",
+            "Stay hydrated and avoid mixing with alcohol."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "DANGEROUS",
+                "description": "Cardiovascular strain, risk of heart attack or stroke.",
+                "interactingDrugs": ["Cocaine", "Adderall"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Increased heart rate and severe anxiety.",
+                "interactingDrugs": ["Adderall", "Caffeine"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Deadly due to combined cardiovascular strain.",
+                "interactingDrugs": ["Adderall", "Pseudoephedrine"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Heart failure due to stimulant overload.",
+                "interactingDrugs": ["Adderall", "Mephedrone"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Heart failure and cardiovascular collapse.",
+                "interactingDrugs": ["Cocaine", "Adderall", "Pseudoephedrine"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Severe dehydration, overheating, and cardiovascular strain.",
+                "interactingDrugs": ["Cocaine", "Adderall", "MDMA"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Severe cardiovascular strain and stroke risk.",
+                "interactingDrugs": ["Adderall", "Mephedrone", "Alpha-PVP"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Severe agitation and cardiovascular risk.",
+                "interactingDrugs": ["Cocaine", "Adderall", "Alpha-PVP"]
+            }
+        ],
+        "lacedBy": [
+            {
+                "name": "Caffeine",
+                "prevalence": 0
+            },
+            {
+                "name": "Methamphetamine",
+                "prevalence": null
+            }
+        ],
+        "laces": []
+    },
+    {
+        "id": "e9580db4-6f63-4feb-9c0d-5864d4b1b100",
+        "names": ["Cannabis", "Weed", "Marijuana"],
+        "type": "cannabinoid",
+        "lacingPrevalence": null,
+        "testingKit": "https://www.tcheck.me",
+        "effects": [
+            "Relaxation",
+            "Euphoria",
+            "Altered perception",
+            "Increased appetite"
+        ],
+        "harmReductionTips": [
+            "Start with a low dose, especially with edibles.",
+            "Avoid driving or operating machinery.",
+            "Stay hydrated and avoid excessive use.",
+            "Avoid mixing with tobacco or alcohol."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Paranoia and confusion from conflicting effects.",
+                "interactingDrugs": ["Cocaine", "Cannabis"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Severe confusion and panic attacks.",
+                "interactingDrugs": ["Cannabis", "LSD"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Intense paranoia and auditory hallucinations.",
+                "interactingDrugs": ["Cannabis", "Methamphetamine"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Risk of panic attacks and paranoia.",
+                "interactingDrugs": ["Cannabis", "Yerba Mate"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Severe paranoia and dissociation.",
+                "interactingDrugs": ["Cannabis", "DMT"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Extreme paranoia and dissociation.",
+                "interactingDrugs": [
+                    "Cannabis",
+                    "Salvia Divinorum",
+                    "Bromo-DragonFLY"
+                ]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Severe emotional overload and panic.",
+                "interactingDrugs": ["Psilocybin", "Cannabis", "DMT"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Paranoia and psychosis.",
+                "interactingDrugs": ["PCP", "Cannabis", "Methamphetamine"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Extreme hallucinations and risk of psychosis.",
+                "interactingDrugs": ["Cannabis", "LSD", "Salvia Divinorum"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Intense paranoia and auditory hallucinations.",
+                "interactingDrugs": [
+                    "Cannabis",
+                    "Methamphetamine",
+                    "Bromo-DragonFLY"
+                ]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Extreme paranoia, confusion, and dissociation.",
+                "interactingDrugs": ["Cannabis", "Datura", "Salvia Divinorum"]
+            }
+        ],
+        "lacedBy": [
+            {
+                "name": "PCP",
+                "prevalence": null
+            },
+            {
+                "name": "Synthetic Cannabinoids",
+                "prevalence": null
+            },
+            {
+                "name": "Fentanyl",
+                "prevalence": null
+            }
+        ],
+        "laces": []
+    },
+    {
+        "id": "610f0aeb-e9d5-4c8b-8223-5160ff2c1fd5",
+        "names": [
+            "GHB",
+            "Gamma Hydroxybutyrate",
+            "Liquid Ecstasy",
+            "G",
+            "Georgia Home Boy",
+            "Fantasy"
+        ],
+        "type": "depressant",
+        "lacingPrevalence": null,
+        "testingKit": "https://www.dancesafe.org/testing-kit-ghb",
+        "effects": ["Sedation", "Euphoria", "Relaxation", "Drowsiness"],
+        "harmReductionTips": [
+            "Dose carefully and avoid excessive use.",
+            "Do not mix with alcohol or other depressants.",
+            "Use in a safe environment with trusted people.",
+            "Carry naloxone in case of overdose risk."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "DANGEROUS",
+                "description": "Intensified dissociation and sedation.",
+                "interactingDrugs": ["GHB", "Ketamine"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Respiratory depression and loss of motor control.",
+                "interactingDrugs": ["GHB", "Alcohol"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Intensified dissociation and sedation, increasing overdose risk.",
+                "interactingDrugs": ["GHB", "Alcohol", "Ketamine"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Respiratory failure due to combined depressant effects.",
+                "interactingDrugs": ["GHB", "Alcohol", "Xanax"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Respiratory arrest due to depressant overload.",
+                "interactingDrugs": ["GHB", "Alcohol", "Flunitrazepam"]
+            }
+        ],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "60eae825-0013-4d8f-a965-97225689b8c8",
+        "names": ["Ritalin"],
+        "type": "stimulant",
+        "lacingPrevalence": null,
+        "testingKit": "https://dancesafe.org/product/methamphetamine-testing-kit",
+        "effects": ["Increased focus", "Alertness", "Euphoria"],
+        "harmReductionTips": [
+            "Avoid frequent use to reduce addiction risk.",
+            "Test for contaminants like fentanyl.",
+            "Use clean tools to avoid infections.",
+            "Stay hydrated and avoid mixing with alcohol."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [
+            {
+                "name": "Caffeine",
+                "prevalence": 0
+            }
+        ],
+        "laces": []
+    },
+    {
+        "id": "c698e1f2-fa22-42cf-986e-1f501e0d1490",
+        "names": ["Ativan", "Lorazepam", "Lorries", "Benzos"],
+        "type": "benzodiazepine",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Anxiety relief", "Sedation", "Relaxation", "Drowsiness"],
+        "harmReductionTips": [
+            "Use only as prescribed by a doctor.",
+            "Avoid mixing with alcohol or other depressants.",
+            "Do not stop abruptly to avoid withdrawal.",
+            "Store securely to prevent misuse."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "83cc884b-45c6-422f-83f0-99734eed6a53",
+        "names": ["Morphine", "M", "Miss Emma", "Dreamer"],
+        "type": "opioid",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Pain relief", "Euphoria", "Relaxation", "Sedation"],
+        "harmReductionTips": [
+            "Use only as prescribed and avoid high doses.",
+            "Avoid mixing with alcohol or sedatives.",
+            "Store securely to prevent misuse.",
+            "Carry naloxone in case of overdose."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "92d5beff-5c1b-4979-a8dd-e9bbecd96264",
+        "names": ["Lyrica", "Pregabalin", "Lyrik", "Budweiser"],
+        "type": "gabapentinoid",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Nerve pain relief", "Relaxation", "Mild euphoria"],
+        "harmReductionTips": [
+            "Use only as prescribed and in moderation.",
+            "Avoid mixing with alcohol or other depressants.",
+            "Do not stop abruptly to prevent withdrawal symptoms.",
+            "Discuss any side effects with your doctor."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "5cfac0d8-8e2b-450e-a6cc-5ed9b63e4c81",
+        "names": ["LSD", "Acid", "Blotter", "Tabs", "Doses", "Lucy"],
+        "type": "hallucinogen",
+        "lacingPrevalence": null,
+        "testingKit": "https://dancesafe.org/product/lsd-testing-kit",
+        "effects": [
+            "Hallucinations",
+            "Altered perception",
+            "Increased creativity",
+            "Emotional shifts"
+        ],
+        "harmReductionTips": [
+            "Use in a safe and familiar environment.",
+            "Have a sober trip sitter if inexperienced.",
+            "Start with a low dose to gauge effects.",
+            "Avoid if prone to mental health issues."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Overwhelming hallucinations and dissociation.",
+                "interactingDrugs": ["LSD", "Ketamine"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Confusion, paranoia, and potential psychosis.",
+                "interactingDrugs": ["LSD", "Diphenhydramine"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Emotional overload and severe hallucinations.",
+                "interactingDrugs": ["LSD", "MDMA"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Severe confusion and panic attacks.",
+                "interactingDrugs": ["Cannabis", "LSD"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Severe hallucinations and risk of psychosis.",
+                "interactingDrugs": ["LSD", "4-AcO-DMT"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Overwhelming hallucinations and emotional instability.",
+                "interactingDrugs": ["Psilocybin", "LSD", "Salvia Divinorum"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Overwhelming emotional distress and confusion.",
+                "interactingDrugs": ["Psilocybin", "LSD", "DMT"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Extreme hallucinations and risk of psychosis.",
+                "interactingDrugs": ["Cannabis", "LSD", "Salvia Divinorum"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Overwhelming sensory dissociation and delusions.",
+                "interactingDrugs": ["LSD", "4-AcO-DMT", "Ketamine"]
+            }
+        ],
+        "lacedBy": [],
+        "laces": [
+            {
+                "name": "2C-B",
+                "prevalence": null
+            }
+        ]
+    },
+    {
+        "id": "9b7e2921-9008-42d6-8190-b6cd566a6655",
+        "names": ["Aspirin", "Bayer", "ASA"],
+        "type": "NSAID",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": [
+            "Pain relief",
+            "Inflammation reduction",
+            "Fever reduction",
+            "Blood thinning"
+        ],
+        "harmReductionTips": [
+            "Follow dosage instructions carefully.",
+            "Take with food to avoid stomach issues.",
+            "Do not exceed the recommended dose.",
+            "Consult a doctor if pain persists."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "4b694d38-2436-4793-ab80-05bbe06bd07e",
+        "names": ["Loperamide", "Imodium", "Lope", "Loperamide High Doses"],
+        "type": "opioid",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Diarrhea relief", "Pain relief in high doses"],
+        "harmReductionTips": [
+            "Use only as prescribed and avoid high doses.",
+            "Avoid mixing with alcohol or sedatives.",
+            "Store securely to prevent misuse.",
+            "Carry naloxone in case of overdose."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "5693087b-5b4a-49a2-ae9b-ab22b9bb3827",
+        "names": ["Caffeine", "NoDoz", "Vivarin", "Coffee", "Tea", "Java"],
+        "type": "stimulant",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Increased energy", "Alertness", "Improved focus"],
+        "harmReductionTips": [
+            "Avoid frequent use to reduce addiction risk.",
+            "Test for contaminants like fentanyl.",
+            "Use clean tools to avoid infections.",
+            "Stay hydrated and avoid mixing with alcohol."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "DANGEROUS",
+                "description": "Increased heart rate and severe anxiety.",
+                "interactingDrugs": ["Adderall", "Caffeine"]
+            }
+        ],
+        "lacedBy": [],
+        "laces": [
+            {
+                "name": "Cocaine",
+                "prevalence": null
+            },
+            {
+                "name": "Adderall",
+                "prevalence": null
+            },
+            {
+                "name": "Ritalin",
+                "prevalence": null
+            },
+            {
+                "name": "Mephedrone",
+                "prevalence": null
+            },
+            {
+                "name": "MDMA",
+                "prevalence": null
+            },
+            {
+                "name": "Methamphetamine",
+                "prevalence": null
+            },
+            {
+                "name": "Bath Salts",
+                "prevalence": null
+            },
+            {
+                "name": "Ketamine",
+                "prevalence": null
+            }
+        ]
+    },
+    {
+        "id": "712a8a2e-d73b-4df6-b769-cc03ee6e2aff",
+        "names": ["Antihistamines", "Claritin", "Zyrtec", "Allegra"],
+        "type": "antihistamine",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Allergy relief", "Mild sedation"],
+        "harmReductionTips": [
+            "Use only as needed for allergies or sleep aid.",
+            "Avoid operating machinery after use.",
+            "Do not mix with alcohol or other sedatives.",
+            "Follow the recommended dosage."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "8011cb6b-6c08-418c-83ac-bccb4f23b0d0",
+        "names": [
+            "Nicotine",
+            "Cigarettes",
+            "Vapes",
+            "Snuff",
+            "Chewing Tobacco",
+            "Dip"
+        ],
+        "type": "stimulant",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Stimulation", "Relaxation", "Increased focus"],
+        "harmReductionTips": [
+            "Avoid frequent use to reduce addiction risk.",
+            "Test for contaminants like fentanyl.",
+            "Use clean tools to avoid infections.",
+            "Stay hydrated and avoid mixing with alcohol."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "cf2a9c89-4155-440d-aa78-ba3ed68142dd",
+        "names": ["Ashwagandha", "Indian Ginseng", "Withania Somnifera"],
+        "type": "adaptogen",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Stress reduction", "Improved focus", "Relaxation"],
+        "harmReductionTips": [
+            "Use as part of a balanced routine.",
+            "Consult a healthcare provider before use.",
+            "Avoid excessive use to prevent tolerance.",
+            "Monitor for any side effects or interactions."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "50efb1a8-a475-495b-9bf8-360adb2ed22f",
+        "names": ["Valerian Root", "Valeriana", "All-Heal"],
+        "type": "sedative",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Relaxation", "Sleep induction"],
+        "harmReductionTips": [
+            "Use only as prescribed or directed.",
+            "Avoid mixing with alcohol or other depressants.",
+            "Take in a safe and calm environment.",
+            "Monitor for dependency or side effects."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "dad71a2d-3ede-4512-8975-1fb46817b653",
+        "names": ["Yerba Mate", "Mate", "Mate Tea"],
+        "type": "stimulant",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Increased energy", "Alertness", "Improved focus"],
+        "harmReductionTips": [
+            "Avoid frequent use to reduce addiction risk.",
+            "Test for contaminants like fentanyl.",
+            "Use clean tools to avoid infections.",
+            "Stay hydrated and avoid mixing with alcohol."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Risk of panic attacks and paranoia.",
+                "interactingDrugs": ["Cannabis", "Yerba Mate"]
+            }
+        ],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "effb6f1c-cae6-4630-bc72-6c8014c84e51",
+        "names": ["Rhodiola Rosea", "Golden Root", "Arctic Root"],
+        "type": "adaptogen",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Stress reduction", "Improved focus", "Energy support"],
+        "harmReductionTips": [
+            "Use as part of a balanced routine.",
+            "Consult a healthcare provider before use.",
+            "Avoid excessive use to prevent tolerance.",
+            "Monitor for any side effects or interactions."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "c3648652-a003-42a9-95e6-329a11c0442b",
+        "names": ["Tramadol", "Ultram", "Trammies"],
+        "type": "opioid",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Pain relief", "Euphoria", "Relaxation"],
+        "harmReductionTips": [
+            "Use only as prescribed and avoid high doses.",
+            "Avoid mixing with alcohol or sedatives.",
+            "Store securely to prevent misuse.",
+            "Carry naloxone in case of overdose."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "DANGEROUS",
+                "description": "Serotonin syndrome and overheating.",
+                "interactingDrugs": ["Tramadol", "MDMA"]
+            }
+        ],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "4280fde0-eca5-4b6b-9214-40da7436e0f1",
+        "names": ["Scopolamine", "Devil's Breath", "Hyoscine"],
+        "type": "anticholinergic",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Motion sickness relief", "Sedation", "Confusion"],
+        "harmReductionTips": [
+            "Use only as prescribed for specific conditions.",
+            "Avoid combining with alcohol or other drugs.",
+            "Watch for signs of confusion or memory issues.",
+            "Consult a doctor for any adverse effects."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "DANGEROUS",
+                "description": "Severe sedation, confusion, and potential coma.",
+                "interactingDrugs": ["Scopolamine", "Alcohol"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Intensified dissociation and unpredictable behavior.",
+                "interactingDrugs": ["Scopolamine", "Datura"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Severe confusion and delusional thinking.",
+                "interactingDrugs": ["Scopolamine", "Diphenhydramine"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Severe dissociation and delusions.",
+                "interactingDrugs": ["Scopolamine", "Datura", "Diphenhydramine"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Severe confusion and unpredictable sedation.",
+                "interactingDrugs": ["Scopolamine", "Alcohol", "Phenibut"]
+            }
+        ],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "4061fb9a-b45a-4d7c-9320-1a1183c71b08",
+        "names": ["N-Bombs", "25I-NBOMe", "Smiles"],
+        "type": "hallucinogen",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Hallucinations", "Euphoria", "Altered perception"],
+        "harmReductionTips": [
+            "Use in a safe and familiar environment.",
+            "Have a sober trip sitter if inexperienced.",
+            "Start with a low dose to gauge effects.",
+            "Avoid if prone to mental health issues."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "DANGEROUS",
+                "description": "Increased risk of serotonin syndrome.",
+                "interactingDrugs": ["N-Bombs", "MDMA"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Unpredictable hallucinogenic effects and confusion.",
+                "interactingDrugs": ["N-Bombs", "4-AcO-DMT"]
+            }
+        ],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "961d31e0-95b6-439d-b03a-7332ffce0eed",
+        "names": ["4-AcO-DMT", "Synthetic Psilocybin"],
+        "type": "hallucinogen",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Hallucinations", "Euphoria", "Spiritual experiences"],
+        "harmReductionTips": [
+            "Use in a safe and familiar environment.",
+            "Have a sober trip sitter if inexperienced.",
+            "Start with a low dose to gauge effects.",
+            "Avoid if prone to mental health issues."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Severe hallucinations and risk of psychosis.",
+                "interactingDrugs": ["LSD", "4-AcO-DMT"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Severe dissociation and hallucinations.",
+                "interactingDrugs": ["4-AcO-DMT", "Ketamine"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Overwhelming hallucinations and sensory overload.",
+                "interactingDrugs": ["Psilocybin", "4-AcO-DMT"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Unpredictable hallucinogenic effects and confusion.",
+                "interactingDrugs": ["N-Bombs", "4-AcO-DMT"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Overwhelming dissociation and sensory overload.",
+                "interactingDrugs": ["4-AcO-DMT", "Ketamine", "DMT"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Overwhelming sensory overload and paranoia.",
+                "interactingDrugs": ["4-AcO-DMT", "DMT", "Salvia Divinorum"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Overwhelming sensory dissociation and delusions.",
+                "interactingDrugs": ["LSD", "4-AcO-DMT", "Ketamine"]
+            }
+        ],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "9ccc206c-b097-4554-b48e-96e264155b08",
+        "names": ["Propofol", "Diprivan", "Milk of Amnesia"],
+        "type": "anesthetic",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Sedation", "Pain relief", "Amnesia"],
+        "harmReductionTips": [
+            "Use only under medical supervision.",
+            "Avoid self-administration of anesthetics.",
+            "Ensure proper ventilation when using.",
+            "Monitor for adverse reactions."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "DANGEROUS",
+                "description": "Severe cardiovascular strain from stimulants.",
+                "interactingDrugs": ["Cocaine", "Propofol"]
+            }
+        ],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "27f8c3f6-93f1-4754-b66d-65d00901e335",
+        "names": ["Ketoprofen", "Orudis", "Painkillers"],
+        "type": "NSAID",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Pain relief", "Inflammation reduction"],
+        "harmReductionTips": [
+            "Follow dosage instructions carefully.",
+            "Take with food to avoid stomach issues.",
+            "Do not exceed the recommended dose.",
+            "Consult a doctor if pain persists."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "ba0056eb-6f15-424d-8fc0-da5e7d01f99e",
+        "names": ["Ibogaine", "Tabernanthe Iboga"],
+        "type": "hallucinogen",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": [
+            "Hallucinations",
+            "Spiritual experiences",
+            "Addiction treatment"
+        ],
+        "harmReductionTips": [
+            "Use in a safe and familiar environment.",
+            "Have a sober trip sitter if inexperienced.",
+            "Start with a low dose to gauge effects.",
+            "Avoid if prone to mental health issues."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "DANGEROUS",
+                "description": "Increased risk of serotonin syndrome and hypertension.",
+                "interactingDrugs": ["Ibogaine", "SSRIs"]
+            }
+        ],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "85d1fef7-66e0-48a2-8ce3-a1bf592cde52",
+        "names": ["Bufotenin", "Toad Venom", "5-HO-DMT"],
+        "type": "hallucinogen",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Hallucinations", "Spiritual experiences"],
+        "harmReductionTips": [
+            "Use in a safe and familiar environment.",
+            "Have a sober trip sitter if inexperienced.",
+            "Start with a low dose to gauge effects.",
+            "Avoid if prone to mental health issues."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Severe emotional instability and panic.",
+                "interactingDrugs": ["Bufotenin", "DMT"]
+            }
+        ],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "37fa4537-b63f-4f10-bee3-f8c88d6fe9a0",
+        "names": ["Diethyl Ether", "Ether", "Anaesthetic"],
+        "type": "inhalant",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Sedation", "Euphoria"],
+        "harmReductionTips": [
+            "Use in well-ventilated areas to avoid oxygen deprivation.",
+            "Do not mix with other substances.",
+            "Avoid excessive or prolonged use.",
+            "Seek help if feeling unwell after use."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "8623cb6a-ee5c-4d49-b490-f62acb1ef957",
+        "names": ["Methaqualone", "Quaaludes", "Ludes"],
+        "type": "sedative-hypnotic",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Sedation", "Relaxation", "Euphoria"],
+        "harmReductionTips": [
+            "Use only as prescribed and avoid high doses.",
+            "Do not mix with alcohol or other sedatives.",
+            "Take only when you can ensure safe rest.",
+            "Store securely to prevent misuse."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "04ffb0be-9e69-4aa1-83b7-16e942ab9d70",
+        "names": ["Kratom Extracts"],
+        "type": "opioid",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Pain relief", "Relaxation", "Euphoria"],
+        "harmReductionTips": [
+            "Use only as prescribed and avoid high doses.",
+            "Avoid mixing with alcohol or sedatives.",
+            "Store securely to prevent misuse.",
+            "Carry naloxone in case of overdose."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "6a08244e-7562-4efd-abbb-7c9c6c925d46",
+        "names": ["Melatonin", "Sleep Aid", "Circadin"],
+        "type": "hormone",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Sleep regulation", "Relaxation"],
+        "harmReductionTips": [
+            "Take only as directed for sleep regulation.",
+            "Avoid taking more than the recommended dose.",
+            "Use as part of a healthy sleep routine.",
+            "Consult a doctor for long-term use."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "cbe45c25-dc5d-4eab-9ff6-26ee4ad8ff54",
+        "names": ["MAOIs", "Nardil", "Parnate", "Emsam"],
+        "type": "antidepressant",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Mood stabilization", "Depression treatment"],
+        "harmReductionTips": [
+            "Take as prescribed by a healthcare provider.",
+            "Do not stop abruptly to avoid withdrawal symptoms.",
+            "Monitor for changes in mood or behavior.",
+            "Discuss side effects with your doctor."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "DANGEROUS",
+                "description": "Increased risk of serotonin syndrome.",
+                "interactingDrugs": ["MAOIs", "DMT"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Severe serotonin syndrome risk.",
+                "interactingDrugs": ["MAOIs", "MDMA", "DMT"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Severe serotonin syndrome with hyperthermia.",
+                "interactingDrugs": ["MAOIs", "MDMA", "SSRIs"]
+            }
+        ],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "b4cc5534-44c3-417e-824e-ba76f902831d",
+        "names": [
+            "Tricyclic Antidepressants",
+            "Amitriptyline",
+            "Nortriptyline",
+            "Imipramine"
+        ],
+        "type": "antidepressant",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Mood stabilization", "Depression treatment"],
+        "harmReductionTips": [
+            "Take as prescribed by a healthcare provider.",
+            "Do not stop abruptly to avoid withdrawal symptoms.",
+            "Monitor for changes in mood or behavior.",
+            "Discuss side effects with your doctor."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "6386e2e2-1a8a-4810-b480-e9937bf00a41",
+        "names": ["Buprenorphine", "Subutex", "Suboxone"],
+        "type": "opioid",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": [
+            "Pain relief",
+            "Opioid dependence treatment",
+            "Mild euphoria"
+        ],
+        "harmReductionTips": [
+            "Use only as prescribed and avoid high doses.",
+            "Avoid mixing with alcohol or sedatives.",
+            "Store securely to prevent misuse.",
+            "Carry naloxone in case of overdose."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "DANGEROUS",
+                "description": "Severe respiratory depression and loss of consciousness.",
+                "interactingDrugs": ["Buprenorphine", "Xanax"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Deadly due to combined respiratory depression.",
+                "interactingDrugs": ["Buprenorphine", "Phenibut"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Respiratory arrest due to combined opioid effects.",
+                "interactingDrugs": ["Buprenorphine", "Methadone"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Respiratory arrest and severe sedation.",
+                "interactingDrugs": ["Buprenorphine", "Alcohol", "Methadone"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Respiratory failure and cardiac arrest.",
+                "interactingDrugs": ["Buprenorphine", "Fentanyl", "Methadone"]
+            }
+        ],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "8b12f406-c466-400e-b087-5ed1e86af827",
+        "names": ["Synthetic Cannabinoids", "Spice", "K2"],
+        "type": "cannabinoid",
+        "lacingPrevalence": null,
+        "testingKit": "https://dancesafe.org/product/spice-k2-testing-kit",
+        "effects": [
+            "Euphoria",
+            "Relaxation",
+            "Altered perception",
+            "Confusion",
+            "Paranoia in high doses"
+        ],
+        "harmReductionTips": [
+            "Start with a low dose, especially with edibles.",
+            "Avoid driving or operating machinery.",
+            "Stay hydrated and avoid excessive use.",
+            "Avoid mixing with tobacco or alcohol."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "DANGEROUS",
+                "description": "Unpredictable side effects and liver toxicity.",
+                "interactingDrugs": ["Synthetic Cannabinoids", "Alcohol"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Unpredictable effects, risk of psychosis, and hyperthermia.",
+                "interactingDrugs": ["Synthetic Cannabinoids", "Alpha-PVP"]
+            }
+        ],
+        "lacedBy": [
+            {
+                "name": "Fentanyl",
+                "prevalence": null
+            }
+        ],
+        "laces": [
+            {
+                "name": "Cannabis",
+                "prevalence": null
+            },
+            {
+                "name": "Salvia Divinorum",
+                "prevalence": null
+            }
+        ]
+    },
+    {
+        "id": "a97e4594-cee7-4836-96be-f5cd6d954d85",
+        "names": [
+            "Alcohol",
+            "Ethanol",
+            "Booze",
+            "Liquor",
+            "Beer",
+            "Wine",
+            "Spirits",
+            "Hard Liquor",
+            "Vodka",
+            "Whiskey",
+            "Rum",
+            "Tequila",
+            "Gin",
+            "Moonshine",
+            "Hooch",
+            "Brewski",
+            "Cocktail",
+            "Champagne",
+            "Ale",
+            "Stout",
+            "Pint",
+            "Scotch",
+            "Bourbon",
+            "Malt",
+            "Cider",
+            "Sake",
+            "Mead"
+        ],
+        "type": "depressant",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Relaxation", "Euphoria", "Impaired coordination"],
+        "harmReductionTips": [
+            "Dose carefully and avoid excessive use.",
+            "Do not mix with alcohol or other depressants.",
+            "Use in a safe environment with trusted people.",
+            "Carry naloxone in case of overdose risk."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "LETHAL",
+                "description": "Severe respiratory depression leading to death.",
+                "interactingDrugs": ["Alcohol", "Xanax"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Combined respiratory depression with sedatives.",
+                "interactingDrugs": ["Alcohol", "Fentanyl"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Respiratory depression and loss of consciousness.",
+                "interactingDrugs": ["Alcohol", "Barbiturates"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Toxic compound formation (cocaethylene) leading to heart issues.",
+                "interactingDrugs": ["Cocaine", "Alcohol"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Respiratory depression and loss of motor control.",
+                "interactingDrugs": ["GHB", "Alcohol"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Severe sedation, confusion, and potential coma.",
+                "interactingDrugs": ["Scopolamine", "Alcohol"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Deadly overdose risk due to combined respiratory depression.",
+                "interactingDrugs": ["Alcohol", "Methadone"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Increased risk of liver toxicity.",
+                "interactingDrugs": ["Alcohol", "Acetaminophen"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Combined sedative effects leading to respiratory failure.",
+                "interactingDrugs": ["Alcohol", "Phenibut"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Unpredictable side effects and liver toxicity.",
+                "interactingDrugs": ["Synthetic Cannabinoids", "Alcohol"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Severe sedation and risk of choking.",
+                "interactingDrugs": ["Alcohol", "Flunitrazepam"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Severe confusion and increased risk of accidents.",
+                "interactingDrugs": ["Alcohol", "Kratom"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Combined respiratory depression and overdose risk.",
+                "interactingDrugs": ["Alcohol", "Xanax", "Fentanyl"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Intensified sedation and confusion, increasing overdose risk.",
+                "interactingDrugs": ["Alcohol", "Barbiturates", "Phenibut"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Respiratory arrest and severe sedation.",
+                "interactingDrugs": ["Buprenorphine", "Alcohol", "Methadone"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Severe liver toxicity and risk of death.",
+                "interactingDrugs": ["Alcohol", "Acetaminophen", "Barbiturates"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Respiratory depression and choking risk.",
+                "interactingDrugs": ["Alcohol", "Flunitrazepam", "Oxycodone"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Hyperthermia and toxic liver effects.",
+                "interactingDrugs": ["Alcohol", "Mephedrone", "Acetaminophen"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Respiratory arrest due to depressant combination.",
+                "interactingDrugs": ["Alcohol", "Flunitrazepam", "Barbiturates"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Severe confusion and unpredictable sedation.",
+                "interactingDrugs": ["Scopolamine", "Alcohol", "Phenibut"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Toxic effects and fatal liver failure.",
+                "interactingDrugs": ["Alcohol", "Acetaminophen", "Methadone"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Hyperthermia, severe dehydration, and toxic liver effects.",
+                "interactingDrugs": ["Alcohol", "MDMA", "Acetaminophen"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Intensified dissociation and sedation, increasing overdose risk.",
+                "interactingDrugs": ["GHB", "Alcohol", "Ketamine"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Respiratory arrest and coma.",
+                "interactingDrugs": ["Alcohol", "Xanax", "Barbiturates"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Respiratory arrest from opioid and sedative combination.",
+                "interactingDrugs": ["Alcohol", "Xanax", "Methadone"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Fatal respiratory failure from synergistic sedatives.",
+                "interactingDrugs": ["Alcohol", "Fentanyl", "Barbiturates"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Respiratory failure due to combined depressant effects.",
+                "interactingDrugs": ["GHB", "Alcohol", "Xanax"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Respiratory arrest due to depressant overload.",
+                "interactingDrugs": ["GHB", "Alcohol", "Flunitrazepam"]
+            }
+        ],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "87a50ee7-00a8-45ee-9610-9503cd98b02b",
+        "names": ["Heroin"],
+        "type": "opioid",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Euphoria", "Pain relief", "Relaxation", "Sedation"],
+        "harmReductionTips": [
+            "Use only as prescribed and avoid high doses.",
+            "Avoid mixing with alcohol or sedatives.",
+            "Store securely to prevent misuse.",
+            "Carry naloxone in case of overdose."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [
+            {
+                "name": "Fentanyl",
+                "prevalence": null
+            }
+        ],
+        "laces": [
+            {
+                "name": "Fentanyl",
+                "prevalence": null
+            }
+        ]
+    },
+    {
+        "id": "18b6e9b9-548e-42c0-a006-16ab4ef03a37",
+        "names": ["Methcathinone", "Ephedrone", "Cat"],
+        "type": "stimulant",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Increased energy", "Euphoria", "Alertness"],
+        "harmReductionTips": [
+            "Avoid frequent use to reduce addiction risk.",
+            "Test for contaminants like fentanyl.",
+            "Use clean tools to avoid infections.",
+            "Stay hydrated and avoid mixing with alcohol."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "c7e9c40e-3cd0-4fd4-846c-fc962fc1f08e",
+        "names": ["Xanax", "Alprazolam"],
+        "type": "benzodiazepine",
+        "lacingPrevalence": null,
+        "testingKit": "https://dancesafe.org/product/benzodiazepine-testing-kit",
+        "effects": ["Anxiety relief", "Sedation", "Relaxation", "Drowsiness"],
+        "harmReductionTips": [
+            "Use only as prescribed by a doctor.",
+            "Avoid mixing with alcohol or other depressants.",
+            "Do not stop abruptly to avoid withdrawal.",
+            "Store securely to prevent misuse."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "LETHAL",
+                "description": "Severe respiratory depression leading to death.",
+                "interactingDrugs": ["Alcohol", "Xanax"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Severe respiratory depression when combining sedatives.",
+                "interactingDrugs": ["Xanax", "Fentanyl"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Severe respiratory depression and loss of consciousness.",
+                "interactingDrugs": ["Buprenorphine", "Xanax"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Intensified sedation and risk of overdose.",
+                "interactingDrugs": ["Xanax", "Barbiturates"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Respiratory arrest and overdose.",
+                "interactingDrugs": ["Xanax", "Oxycodone"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Combined respiratory depression and overdose risk.",
+                "interactingDrugs": ["Alcohol", "Xanax", "Fentanyl"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Respiratory failure due to synergistic sedative effects.",
+                "interactingDrugs": ["Xanax", "Fentanyl", "Phenibut"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Respiratory arrest from opioid and sedative combination.",
+                "interactingDrugs": ["Xanax", "Fentanyl", "Methadone"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Fatal respiratory arrest due to combined opioid and sedative effects.",
+                "interactingDrugs": ["Xanax", "Oxycodone", "Fentanyl"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Respiratory arrest and coma.",
+                "interactingDrugs": ["Alcohol", "Xanax", "Barbiturates"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Respiratory arrest from opioid and sedative combination.",
+                "interactingDrugs": ["Alcohol", "Xanax", "Methadone"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Respiratory failure due to combined depressant effects.",
+                "interactingDrugs": ["GHB", "Alcohol", "Xanax"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Severe respiratory depression and hypoxia.",
+                "interactingDrugs": ["Xanax", "Gabapentin", "Fentanyl"]
+            }
+        ],
+        "lacedBy": [
+            {
+                "name": "Fentanyl",
+                "prevalence": null
+            }
+        ],
+        "laces": []
+    },
+    {
+        "id": "86b899b6-4aca-43a4-9d70-fa300d9e9567",
+        "names": ["Vicodin", "Hydrocodone"],
+        "type": "opioid",
+        "lacingPrevalence": null,
+        "testingKit": "https://dancesafe.org/product/fentanyl-testing-strips",
+        "effects": ["Pain relief", "Euphoria", "Relaxation", "Drowsiness"],
+        "harmReductionTips": [
+            "Use only as prescribed and avoid high doses.",
+            "Avoid mixing with alcohol or sedatives.",
+            "Store securely to prevent misuse.",
+            "Carry naloxone in case of overdose."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [
+            {
+                "name": "Fentanyl",
+                "prevalence": null
+            }
+        ],
+        "laces": []
+    },
+    {
+        "id": "59e3a4ca-9fe2-4671-98b5-f08f0621fb04",
+        "names": ["Gabapentin", "Gabbies", "Neurontin"],
+        "type": "gabapentinoid",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Nerve pain relief", "Relaxation", "Mild euphoria"],
+        "harmReductionTips": [
+            "Use only as prescribed and in moderation.",
+            "Avoid mixing with alcohol or other depressants.",
+            "Do not stop abruptly to prevent withdrawal symptoms.",
+            "Discuss any side effects with your doctor."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "LETHAL",
+                "description": "Severe respiratory depression and hypoxia.",
+                "interactingDrugs": ["Xanax", "Gabapentin", "Fentanyl"]
+            }
+        ],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "3b6d9f2b-82b3-453e-a489-d3c40b15f000",
+        "names": ["Ibuprofen", "Advil", "Motrin", "Nurofen"],
+        "type": "NSAID",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Pain relief", "Inflammation reduction", "Fever reduction"],
+        "harmReductionTips": [
+            "Follow dosage instructions carefully.",
+            "Take with food to avoid stomach issues.",
+            "Do not exceed the recommended dose.",
+            "Consult a doctor if pain persists."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "d8a2f062-d942-4787-a356-25864dc6520f",
+        "names": ["Pseudoephedrine", "Sudafed", "PSE"],
+        "type": "stimulant",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Decongestion", "Increased energy", "Alertness"],
+        "harmReductionTips": [
+            "Avoid frequent use to reduce addiction risk.",
+            "Test for contaminants like fentanyl.",
+            "Use clean tools to avoid infections.",
+            "Stay hydrated and avoid mixing with alcohol."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "LETHAL",
+                "description": "Severe blood pressure spikes and stroke risk.",
+                "interactingDrugs": ["Cocaine", "Pseudoephedrine"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Deadly due to combined cardiovascular strain.",
+                "interactingDrugs": ["Adderall", "Pseudoephedrine"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Heart failure and cardiovascular collapse.",
+                "interactingDrugs": ["Cocaine", "Adderall", "Pseudoephedrine"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Severe cardiac strain causing heart failure.",
+                "interactingDrugs": [
+                    "Cocaine",
+                    "Pseudoephedrine",
+                    "Methamphetamine"
+                ]
+            }
+        ],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "4ac4d669-00ee-4b0a-9733-a3f6026fe344",
+        "names": ["Percocet", "Oxycodone/Acetaminophen", "Perks", "Percs"],
+        "type": "opioid",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Pain relief", "Euphoria", "Relaxation", "Drowsiness"],
+        "harmReductionTips": [
+            "Use only as prescribed and avoid high doses.",
+            "Avoid mixing with alcohol or sedatives.",
+            "Store securely to prevent misuse.",
+            "Carry naloxone in case of overdose."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "ddf70a3f-a596-4c33-83ea-836d871979bf",
+        "names": ["Codeine", "Lean", "Purple Drank", "Sizzurp", "Cough Syrup"],
+        "type": "opioid",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": [
+            "Pain relief",
+            "Relaxation",
+            "Euphoria",
+            "Cough suppression"
+        ],
+        "harmReductionTips": [
+            "Use only as prescribed and avoid high doses.",
+            "Avoid mixing with alcohol or sedatives.",
+            "Store securely to prevent misuse.",
+            "Carry naloxone in case of overdose."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "50871074-378e-42f5-9365-70a047aafdf6",
+        "names": [
+            "Dextromethorphan",
+            "DXM",
+            "Robo",
+            "Tussin",
+            "Triple C",
+            "DXO"
+        ],
+        "type": "dissociative",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": [
+            "Cough suppression",
+            "Mild euphoria",
+            "Dissociation in high doses"
+        ],
+        "harmReductionTips": [
+            "Start with a low dose in a safe place.",
+            "Avoid mixing with alcohol or depressants.",
+            "Do not drive or operate machinery after use.",
+            "Stay hydrated and monitor bladder health."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "47d0991f-66bd-4590-ada3-9dbb818b38a9",
+        "names": ["CBD", "Cannabidiol", "Hemp Extract"],
+        "type": "cannabinoid",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Relaxation", "Anxiety relief", "Pain relief"],
+        "harmReductionTips": [
+            "Start with a low dose, especially with edibles.",
+            "Avoid driving or operating machinery.",
+            "Stay hydrated and avoid excessive use.",
+            "Avoid mixing with tobacco or alcohol."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "2fd6b41e-1eda-49c7-a7f8-6e2b5e7df210",
+        "names": ["L-Theanine", "Tea Amino Acid"],
+        "type": "anxiolytic",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Relaxation", "Improved focus"],
+        "harmReductionTips": [
+            "Use only as needed and in safe settings.",
+            "Avoid combining with alcohol or other drugs.",
+            "Do not exceed recommended doses.",
+            "Discuss any side effects with your doctor."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "3f16b45e-8ddf-4baf-8565-0277accd2c4f",
+        "names": ["Taurine", "Energy Drink Ingredient"],
+        "type": "amino acid",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Energy support", "Improved focus"],
+        "harmReductionTips": [
+            "Take as part of a balanced diet or supplement plan.",
+            "Avoid excessive use without consulting a doctor.",
+            "Monitor for side effects or interactions.",
+            "Use as directed by a healthcare provider."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "c37213e1-258d-40eb-a79f-5d9382bf6905",
+        "names": ["Datura", "Jimson Weed", "Devil's Trumpet", "Moonflower"],
+        "type": "deliriant",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Hallucinations", "Confusion", "Sedation"],
+        "harmReductionTips": [
+            "Avoid high doses due to unpredictable effects.",
+            "Use only in a safe and controlled setting.",
+            "Have someone sober present if using.",
+            "Do not mix with other substances."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Overwhelming dissociation and potential delusions.",
+                "interactingDrugs": ["Datura", "Ketamine"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Severe confusion and delusional thinking.",
+                "interactingDrugs": ["Datura", "Diphenhydramine"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Intensified dissociation and unpredictable behavior.",
+                "interactingDrugs": ["Scopolamine", "Datura"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Severe dissociation and overwhelming hallucinations.",
+                "interactingDrugs": ["Datura", "Salvia Divinorum"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Severe dissociation and delusions.",
+                "interactingDrugs": ["Scopolamine", "Datura", "Diphenhydramine"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Unpredictable hallucinations and extreme dissociation.",
+                "interactingDrugs": ["Datura", "Ketamine", "Salvia Divinorum"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Extreme paranoia, confusion, and dissociation.",
+                "interactingDrugs": ["Cannabis", "Datura", "Salvia Divinorum"]
+            }
+        ],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "abedec8f-cf0f-4a20-be2f-d16c1336c188",
+        "names": ["Flunitrazepam", "Rohypnol", "Roofies", "Forget-Me Pill"],
+        "type": "benzodiazepine",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Sedation", "Sleep induction", "Amnesia"],
+        "harmReductionTips": [
+            "Use only as prescribed by a doctor.",
+            "Avoid mixing with alcohol or other depressants.",
+            "Do not stop abruptly to avoid withdrawal.",
+            "Store securely to prevent misuse."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "DANGEROUS",
+                "description": "Severe sedation and risk of choking.",
+                "interactingDrugs": ["Alcohol", "Flunitrazepam"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Respiratory depression and choking risk.",
+                "interactingDrugs": ["Alcohol", "Flunitrazepam", "Oxycodone"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Respiratory arrest due to depressant combination.",
+                "interactingDrugs": ["Alcohol", "Flunitrazepam", "Barbiturates"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Respiratory arrest due to depressant overload.",
+                "interactingDrugs": ["GHB", "Alcohol", "Flunitrazepam"]
+            }
+        ],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "2f91f338-140f-49d7-be11-56dd182250dd",
+        "names": ["Mephedrone", "Meow Meow"],
+        "type": "stimulant",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Euphoria", "Increased energy", "Alertness"],
+        "harmReductionTips": [
+            "Avoid frequent use to reduce addiction risk.",
+            "Test for contaminants like fentanyl.",
+            "Use clean tools to avoid infections.",
+            "Stay hydrated and avoid mixing with alcohol."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "DANGEROUS",
+                "description": "Severe overheating and serotonin syndrome.",
+                "interactingDrugs": ["Mephedrone", "MDMA"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Heart failure due to stimulant overload.",
+                "interactingDrugs": ["Adderall", "Mephedrone"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Heart failure from combined stimulant effects.",
+                "interactingDrugs": ["Cocaine", "Mephedrone"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Severe hyperthermia and serotonin syndrome risk.",
+                "interactingDrugs": ["Mephedrone", "MDMA", "5-HTP"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Hyperthermia and toxic liver effects.",
+                "interactingDrugs": ["Alcohol", "Mephedrone", "Acetaminophen"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Severe cardiovascular strain and stroke risk.",
+                "interactingDrugs": ["Adderall", "Mephedrone", "Alpha-PVP"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Severe cardiovascular strain and hyperthermia.",
+                "interactingDrugs": ["Cocaine", "Mephedrone", "MDMA"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Cardiovascular collapse and heart attack.",
+                "interactingDrugs": [
+                    "Mephedrone",
+                    "Methamphetamine",
+                    "Alpha-PVP"
+                ]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Cardiac arrest and hyperthermia.",
+                "interactingDrugs": ["Mephedrone", "MDMA", "Methamphetamine"]
+            }
+        ],
+        "lacedBy": [
+            {
+                "name": "Caffeine",
+                "prevalence": 0
+            },
+            {
+                "name": "Bath Salts",
+                "prevalence": null
+            }
+        ],
+        "laces": []
+    },
+    {
+        "id": "da2374c3-95b0-4fbe-81d0-5d9cb420518b",
+        "names": ["Harmaline", "Ayahuasca Alkaloid"],
+        "type": "MAOI",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Spiritual experiences", "Mild euphoria"],
+        "harmReductionTips": [
+            "Follow a strict diet to avoid dangerous interactions.",
+            "Do not mix with SSRIs or other antidepressants.",
+            "Avoid alcohol and certain over-the-counter drugs.",
+            "Consult a doctor regularly while using."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "a794a4ec-f067-45f5-add4-80d0a4448fc2",
+        "names": ["Diclazepam", "Benzodiazepine Analogue"],
+        "type": "benzodiazepine",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Anxiety relief", "Relaxation", "Sedation"],
+        "harmReductionTips": [
+            "Use only as prescribed by a doctor.",
+            "Avoid mixing with alcohol or other depressants.",
+            "Do not stop abruptly to avoid withdrawal.",
+            "Store securely to prevent misuse."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "b6a027a5-907e-4791-a0ea-defb793d7e95",
+        "names": ["MDMA", "Molly", "Ecstasy"],
+        "type": "stimulant-hallucinogen",
+        "lacingPrevalence": null,
+        "testingKit": "https://dancesafe.org/product/mdma-testing-kit",
+        "effects": [
+            "Euphoria",
+            "Empathy",
+            "Increased energy",
+            "Enhanced sensory perception"
+        ],
+        "harmReductionTips": [
+            "Test for purity with reagent kits.",
+            "Stay hydrated but avoid overhydration.",
+            "Avoid mixing with alcohol or other drugs.",
+            "Take breaks to cool down during physical activity."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "DANGEROUS",
+                "description": "Hyperthermia and cardiovascular failure.",
+                "interactingDrugs": ["MDMA", "Methamphetamine"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Serotonin syndrome due to excessive serotonin levels.",
+                "interactingDrugs": ["MDMA", "5-HTP"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Severe dehydration and overheating.",
+                "interactingDrugs": ["Cocaine", "MDMA"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Emotional overload and severe hallucinations.",
+                "interactingDrugs": ["LSD", "MDMA"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Serotonin syndrome and overheating.",
+                "interactingDrugs": ["Tramadol", "MDMA"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Severe overheating and serotonin syndrome.",
+                "interactingDrugs": ["Mephedrone", "MDMA"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Increased risk of serotonin syndrome.",
+                "interactingDrugs": ["N-Bombs", "MDMA"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Severe cardiovascular strain, hyperthermia, and dehydration.",
+                "interactingDrugs": ["MDMA", "Alpha-PVP"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Severe cardiovascular strain, dehydration, and overheating.",
+                "interactingDrugs": ["Cocaine", "MDMA", "Methamphetamine"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Severe hyperthermia and serotonin syndrome risk.",
+                "interactingDrugs": ["Mephedrone", "MDMA", "5-HTP"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Severe dehydration, overheating, and cardiovascular strain.",
+                "interactingDrugs": ["Cocaine", "Adderall", "MDMA"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Severe serotonin syndrome risk.",
+                "interactingDrugs": ["MAOIs", "MDMA", "DMT"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Severe serotonin syndrome with hyperthermia.",
+                "interactingDrugs": ["MAOIs", "MDMA", "SSRIs"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Severe cardiovascular strain and hyperthermia.",
+                "interactingDrugs": ["Cocaine", "Mephedrone", "MDMA"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Hyperthermia, severe dehydration, and toxic liver effects.",
+                "interactingDrugs": ["Alcohol", "MDMA", "Acetaminophen"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Cardiac arrest and hyperthermia.",
+                "interactingDrugs": ["Mephedrone", "MDMA", "Methamphetamine"]
+            }
+        ],
+        "lacedBy": [
+            {
+                "name": "Caffeine",
+                "prevalence": 0
+            },
+            {
+                "name": "Methamphetamine",
+                "prevalence": null
+            },
+            {
+                "name": "Ketamine",
+                "prevalence": null
+            },
+            {
+                "name": "PMMA",
+                "prevalence": 0
+            }
+        ],
+        "laces": [
+            {
+                "name": "2C-B",
+                "prevalence": null
+            }
+        ]
+    },
+    {
+        "id": "b65913f4-082e-4a26-a018-32eb1ca6d161",
+        "names": ["Methamphetamine", "Meth", "Crystal"],
+        "type": "stimulant",
+        "lacingPrevalence": null,
+        "testingKit": "https://dancesafe.org/product/methamphetamine-testing-kit",
+        "effects": [
+            "Increased energy",
+            "Euphoria",
+            "Alertness",
+            "Decreased appetite"
+        ],
+        "harmReductionTips": [
+            "Avoid frequent use to reduce addiction risk.",
+            "Test for contaminants like fentanyl.",
+            "Use clean tools to avoid infections.",
+            "Stay hydrated and avoid mixing with alcohol."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "DANGEROUS",
+                "description": "Hyperthermia and cardiovascular failure.",
+                "interactingDrugs": ["MDMA", "Methamphetamine"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Dangerous blood pressure spikes and hyperthermia.",
+                "interactingDrugs": ["Cocaine", "Methamphetamine"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Intense paranoia and auditory hallucinations.",
+                "interactingDrugs": ["Cannabis", "Methamphetamine"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Extreme cardiovascular failure.",
+                "interactingDrugs": ["Methamphetamine", "Benzylpiperazine"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Paranoia and extreme confusion.",
+                "interactingDrugs": ["PCP", "Methamphetamine"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Severe cardiovascular strain, dehydration, and overheating.",
+                "interactingDrugs": ["Cocaine", "MDMA", "Methamphetamine"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Paranoia and psychosis.",
+                "interactingDrugs": ["PCP", "Cannabis", "Methamphetamine"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Heart failure due to combined stimulant overload.",
+                "interactingDrugs": ["Cocaine", "Methamphetamine", "Alpha-PVP"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Intense paranoia and auditory hallucinations.",
+                "interactingDrugs": [
+                    "Cannabis",
+                    "Methamphetamine",
+                    "Bromo-DragonFLY"
+                ]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Cardiovascular collapse and heart attack.",
+                "interactingDrugs": [
+                    "Mephedrone",
+                    "Methamphetamine",
+                    "Alpha-PVP"
+                ]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Cardiac arrest and hyperthermia.",
+                "interactingDrugs": ["Mephedrone", "MDMA", "Methamphetamine"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Severe cardiac strain causing heart failure.",
+                "interactingDrugs": [
+                    "Cocaine",
+                    "Pseudoephedrine",
+                    "Methamphetamine"
+                ]
+            }
+        ],
+        "lacedBy": [
+            {
+                "name": "Caffeine",
+                "prevalence": 0
+            },
+            {
+                "name": "Fentanyl",
+                "prevalence": null
+            }
+        ],
+        "laces": [
+            {
+                "name": "Adderall",
+                "prevalence": null
+            },
+            {
+                "name": "MDMA",
+                "prevalence": null
+            },
+            {
+                "name": "Bath Salts",
+                "prevalence": null
+            },
+            {
+                "name": "Ketamine",
+                "prevalence": null
+            }
+        ]
+    },
+    {
+        "id": "c6420bab-8a93-4bfa-906a-7fc916edf09c",
+        "names": ["Oxycodone", "OxyContin"],
+        "type": "opioid",
+        "lacingPrevalence": null,
+        "testingKit": "https://dancesafe.org/product/fentanyl-testing-strips",
+        "effects": ["Pain relief", "Euphoria", "Relaxation", "Drowsiness"],
+        "harmReductionTips": [
+            "Use only as prescribed and avoid high doses.",
+            "Avoid mixing with alcohol or sedatives.",
+            "Store securely to prevent misuse.",
+            "Carry naloxone in case of overdose."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "LETHAL",
+                "description": "Respiratory arrest and overdose.",
+                "interactingDrugs": ["Xanax", "Oxycodone"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Respiratory depression and choking risk.",
+                "interactingDrugs": ["Alcohol", "Flunitrazepam", "Oxycodone"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Fatal respiratory arrest due to combined opioid and sedative effects.",
+                "interactingDrugs": ["Xanax", "Oxycodone", "Fentanyl"]
+            }
+        ],
+        "lacedBy": [
+            {
+                "name": "Fentanyl",
+                "prevalence": null
+            }
+        ],
+        "laces": []
+    },
+    {
+        "id": "8fdfd8f3-166f-441a-ac2a-de79be047628",
+        "names": ["Bath Salts", "Synthetic Cathinones"],
+        "type": "stimulant",
+        "lacingPrevalence": null,
+        "testingKit": "https://dancesafe.org/product/synthetic-cathinones-testing-kit",
+        "effects": [
+            "Increased energy",
+            "Euphoria",
+            "Alertness",
+            "Aggression in high doses"
+        ],
+        "harmReductionTips": [
+            "Avoid frequent use to reduce addiction risk.",
+            "Test for contaminants like fentanyl.",
+            "Use clean tools to avoid infections.",
+            "Stay hydrated and avoid mixing with alcohol."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [
+            {
+                "name": "Caffeine",
+                "prevalence": 0
+            },
+            {
+                "name": "Methamphetamine",
+                "prevalence": null
+            },
+            {
+                "name": "Fentanyl",
+                "prevalence": null
+            }
+        ],
+        "laces": [
+            {
+                "name": "Mephedrone",
+                "prevalence": null
+            }
+        ]
+    },
+    {
+        "id": "d747d297-6e11-4906-a0d4-953571d668ad",
+        "names": ["Ketamine", "Special K"],
+        "type": "dissociative",
+        "lacingPrevalence": null,
+        "testingKit": "https://dancesafe.org/product/ketamine-testing-kit",
+        "effects": [
+            "Dissociation",
+            "Pain relief",
+            "Sedation",
+            "Hallucinations"
+        ],
+        "harmReductionTips": [
+            "Start with a low dose in a safe place.",
+            "Avoid mixing with alcohol or depressants.",
+            "Do not drive or operate machinery after use.",
+            "Stay hydrated and monitor bladder health."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Overwhelming hallucinations and dissociation.",
+                "interactingDrugs": ["LSD", "Ketamine"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Intensified dissociation and sedation.",
+                "interactingDrugs": ["GHB", "Ketamine"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Overwhelming dissociation and potential delusions.",
+                "interactingDrugs": ["Datura", "Ketamine"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Unpredictable dissociation and sedation.",
+                "interactingDrugs": ["PCP", "Ketamine"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Severe dissociation and hallucinations.",
+                "interactingDrugs": ["4-AcO-DMT", "Ketamine"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Severe emotional instability and dissociation.",
+                "interactingDrugs": ["Ketamine", "DMT"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Intense dissociation and unpredictable hallucinations.",
+                "interactingDrugs": ["Ketamine", "Salvia Divinorum"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Overwhelming dissociation and sensory overload.",
+                "interactingDrugs": ["4-AcO-DMT", "Ketamine", "DMT"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Unpredictable hallucinations and extreme dissociation.",
+                "interactingDrugs": ["Datura", "Ketamine", "Salvia Divinorum"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Intensified dissociation and sedation, increasing overdose risk.",
+                "interactingDrugs": ["GHB", "Alcohol", "Ketamine"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Overwhelming sensory dissociation and delusions.",
+                "interactingDrugs": ["LSD", "4-AcO-DMT", "Ketamine"]
+            }
+        ],
+        "lacedBy": [
+            {
+                "name": "Caffeine",
+                "prevalence": 0
+            },
+            {
+                "name": "Methamphetamine",
+                "prevalence": null
+            }
+        ],
+        "laces": [
+            {
+                "name": "PCP",
+                "prevalence": null
+            },
+            {
+                "name": "MDMA",
+                "prevalence": null
+            }
+        ]
+    },
+    {
+        "id": "3754a7a1-fe97-4578-810d-6fbb57ffcda7",
+        "names": ["DMT", "Dimethyltryptamine"],
+        "type": "hallucinogen",
+        "lacingPrevalence": null,
+        "testingKit": "https://dancesafe.org/product/dmt-testing-kit",
+        "effects": [
+            "Intense hallucinations",
+            "Altered perception of time",
+            "Spiritual experiences"
+        ],
+        "harmReductionTips": [
+            "Use in a safe and familiar environment.",
+            "Have a sober trip sitter if inexperienced.",
+            "Start with a low dose to gauge effects.",
+            "Avoid if prone to mental health issues."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "DANGEROUS",
+                "description": "Increased risk of serotonin syndrome.",
+                "interactingDrugs": ["MAOIs", "DMT"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Intensified hallucinations and risk of paranoia.",
+                "interactingDrugs": ["DMT", "Salvia Divinorum"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Severe emotional instability and panic.",
+                "interactingDrugs": ["Bufotenin", "DMT"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Severe emotional instability and dissociation.",
+                "interactingDrugs": ["Ketamine", "DMT"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Increased serotonin syndrome risk.",
+                "interactingDrugs": ["DMT", "5-HTP"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Severe paranoia and dissociation.",
+                "interactingDrugs": ["Cannabis", "DMT"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Overwhelming dissociation and sensory overload.",
+                "interactingDrugs": ["4-AcO-DMT", "Ketamine", "DMT"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Severe emotional overload and panic.",
+                "interactingDrugs": ["Psilocybin", "Cannabis", "DMT"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Severe serotonin syndrome risk.",
+                "interactingDrugs": ["MAOIs", "MDMA", "DMT"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Overwhelming emotional distress and confusion.",
+                "interactingDrugs": ["Psilocybin", "LSD", "DMT"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Overwhelming sensory overload and paranoia.",
+                "interactingDrugs": ["4-AcO-DMT", "DMT", "Salvia Divinorum"]
+            }
+        ],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "33121685-f867-40da-8cec-1b9f2cb791c8",
+        "names": ["Salvia Divinorum", "Salvia"],
+        "type": "hallucinogen",
+        "lacingPrevalence": null,
+        "testingKit": "https://www.salviasociety.org/salvia-testing-kit",
+        "effects": [
+            "Hallucinations",
+            "Dissociation",
+            "Altered perception of reality"
+        ],
+        "harmReductionTips": [
+            "Use in a safe and familiar environment.",
+            "Have a sober trip sitter if inexperienced.",
+            "Start with a low dose to gauge effects.",
+            "Avoid if prone to mental health issues."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "DANGEROUS",
+                "description": "Intensified hallucinations and risk of paranoia.",
+                "interactingDrugs": ["DMT", "Salvia Divinorum"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Overwhelming hallucinations and dissociation.",
+                "interactingDrugs": ["Salvia Divinorum", "Bromo-DragonFLY"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Severe dissociation and overwhelming hallucinations.",
+                "interactingDrugs": ["Datura", "Salvia Divinorum"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Intense dissociation and unpredictable hallucinations.",
+                "interactingDrugs": ["Ketamine", "Salvia Divinorum"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Overwhelming hallucinations and emotional instability.",
+                "interactingDrugs": ["Psilocybin", "LSD", "Salvia Divinorum"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Extreme paranoia and dissociation.",
+                "interactingDrugs": [
+                    "Cannabis",
+                    "Salvia Divinorum",
+                    "Bromo-DragonFLY"
+                ]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Unpredictable hallucinations and extreme dissociation.",
+                "interactingDrugs": ["Datura", "Ketamine", "Salvia Divinorum"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Extreme hallucinations and risk of psychosis.",
+                "interactingDrugs": ["Cannabis", "LSD", "Salvia Divinorum"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Overwhelming sensory overload and paranoia.",
+                "interactingDrugs": ["4-AcO-DMT", "DMT", "Salvia Divinorum"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Extreme paranoia, confusion, and dissociation.",
+                "interactingDrugs": ["Cannabis", "Datura", "Salvia Divinorum"]
+            }
+        ],
+        "lacedBy": [
+            {
+                "name": "Synthetic Cannabinoids",
+                "prevalence": null
+            }
+        ],
+        "laces": []
+    },
+    {
+        "id": "3f8bf693-7104-4fe9-8d09-f387a5cfacf2",
+        "names": ["2C-B", "Nexus"],
+        "type": "hallucinogen",
+        "lacingPrevalence": null,
+        "testingKit": "https://dancesafe.org/product/2c-b-testing-kit",
+        "effects": [
+            "Hallucinations",
+            "Enhanced sensory perception",
+            "Euphoria"
+        ],
+        "harmReductionTips": [
+            "Use in a safe and familiar environment.",
+            "Have a sober trip sitter if inexperienced.",
+            "Start with a low dose to gauge effects.",
+            "Avoid if prone to mental health issues."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [
+            {
+                "name": "LSD",
+                "prevalence": 0
+            },
+            {
+                "name": "MDMA",
+                "prevalence": null
+            }
+        ],
+        "laces": []
+    },
+    {
+        "id": "30bdf11d-0b6c-470e-b542-f3bf00f7e2cf",
+        "names": ["Valium", "Diazepam", "V's", "Tranks"],
+        "type": "benzodiazepine",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": [
+            "Anxiety relief",
+            "Sedation",
+            "Muscle relaxation",
+            "Drowsiness"
+        ],
+        "harmReductionTips": [
+            "Use only as prescribed by a doctor.",
+            "Avoid mixing with alcohol or other depressants.",
+            "Do not stop abruptly to avoid withdrawal.",
+            "Store securely to prevent misuse."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "0719951a-a02a-490e-bbfe-d99a42543e0a",
+        "names": ["Ambien", "Zolpidem", "Z", "Sleepers"],
+        "type": "sedative-hypnotic",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Sedation", "Sleep induction", "Relaxation"],
+        "harmReductionTips": [
+            "Use only as prescribed and avoid high doses.",
+            "Do not mix with alcohol or other sedatives.",
+            "Take only when you can ensure safe rest.",
+            "Store securely to prevent misuse."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "3b03193a-ced4-483a-b3bf-c8e89cd544a1",
+        "names": ["Fentanyl"],
+        "type": "opioid",
+        "lacingPrevalence": null,
+        "testingKit": "https://dancesafe.org/product/fentanyl-testing-strips",
+        "effects": [
+            "Pain relief",
+            "Euphoria",
+            "Sedation",
+            "Respiratory depression"
+        ],
+        "harmReductionTips": [
+            "Use only as prescribed and avoid high doses.",
+            "Avoid mixing with alcohol or sedatives.",
+            "Store securely to prevent misuse.",
+            "Carry naloxone in case of overdose."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "LETHAL",
+                "description": "Combined respiratory depression with sedatives.",
+                "interactingDrugs": ["Alcohol", "Fentanyl"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Severe respiratory depression when combining sedatives.",
+                "interactingDrugs": ["Xanax", "Fentanyl"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Deadly respiratory depression from combined opioids.",
+                "interactingDrugs": ["Fentanyl", "Methadone"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Combined respiratory depression and overdose risk.",
+                "interactingDrugs": ["Alcohol", "Xanax", "Fentanyl"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Respiratory failure due to synergistic sedative effects.",
+                "interactingDrugs": ["Xanax", "Fentanyl", "Phenibut"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Respiratory arrest from opioid and sedative combination.",
+                "interactingDrugs": ["Xanax", "Fentanyl", "Methadone"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Fatal respiratory arrest due to combined opioid and sedative effects.",
+                "interactingDrugs": ["Xanax", "Oxycodone", "Fentanyl"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Respiratory failure and cardiac arrest.",
+                "interactingDrugs": ["Buprenorphine", "Fentanyl", "Methadone"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Fatal respiratory failure from synergistic sedatives.",
+                "interactingDrugs": ["Alcohol", "Fentanyl", "Barbiturates"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Severe respiratory depression and hypoxia.",
+                "interactingDrugs": ["Xanax", "Gabapentin", "Fentanyl"]
+            }
+        ],
+        "lacedBy": [
+            {
+                "name": "Heroin",
+                "prevalence": null
+            }
+        ],
+        "laces": [
+            {
+                "name": "Cocaine",
+                "prevalence": null
+            },
+            {
+                "name": "Cannabis",
+                "prevalence": null
+            },
+            {
+                "name": "Synthetic Cannabinoids",
+                "prevalence": null
+            },
+            {
+                "name": "Heroin",
+                "prevalence": null
+            },
+            {
+                "name": "Xanax",
+                "prevalence": null
+            },
+            {
+                "name": "Vicodin",
+                "prevalence": null
+            },
+            {
+                "name": "Methamphetamine",
+                "prevalence": null
+            },
+            {
+                "name": "Oxycodone",
+                "prevalence": null
+            },
+            {
+                "name": "Bath Salts",
+                "prevalence": null
+            }
+        ]
+    },
+    {
+        "id": "887db317-82ba-4bd6-8799-7cb915255c0b",
+        "names": ["Klonopin", "Clonazepam", "K-Pins", "Benzos"],
+        "type": "benzodiazepine",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Anxiety relief", "Sedation", "Relaxation", "Drowsiness"],
+        "harmReductionTips": [
+            "Use only as prescribed by a doctor.",
+            "Avoid mixing with alcohol or other depressants.",
+            "Do not stop abruptly to avoid withdrawal.",
+            "Store securely to prevent misuse."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "8a03f336-f925-480c-bbef-df8f718b54b2",
+        "names": ["Acetaminophen", "Tylenol", "Paracetamol", "Panadol"],
+        "type": "analgesic",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Pain relief", "Fever reduction"],
+        "harmReductionTips": [
+            "Follow prescribed dosages strictly.",
+            "Avoid combining with alcohol or opioids.",
+            "Do not exceed the maximum daily dose.",
+            "Keep medication stored safely."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "DANGEROUS",
+                "description": "Increased risk of liver toxicity.",
+                "interactingDrugs": ["Alcohol", "Acetaminophen"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Severe liver toxicity and risk of death.",
+                "interactingDrugs": ["Alcohol", "Acetaminophen", "Barbiturates"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Hyperthermia and toxic liver effects.",
+                "interactingDrugs": ["Alcohol", "Mephedrone", "Acetaminophen"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Toxic effects and fatal liver failure.",
+                "interactingDrugs": ["Alcohol", "Acetaminophen", "Methadone"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Hyperthermia, severe dehydration, and toxic liver effects.",
+                "interactingDrugs": ["Alcohol", "MDMA", "Acetaminophen"]
+            }
+        ],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "91536568-47d8-4a1b-a16d-c87129ea8a90",
+        "names": ["Diphenhydramine", "Benadryl", "Dramamine", "Sleepy Pills"],
+        "type": "antihistamine",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Allergy relief", "Sleep induction", "Mild sedation"],
+        "harmReductionTips": [
+            "Use only as needed for allergies or sleep aid.",
+            "Avoid operating machinery after use.",
+            "Do not mix with alcohol or other sedatives.",
+            "Follow the recommended dosage."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Confusion, paranoia, and potential psychosis.",
+                "interactingDrugs": ["LSD", "Diphenhydramine"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Severe confusion and delusional thinking.",
+                "interactingDrugs": ["Datura", "Diphenhydramine"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Severe confusion and delusional thinking.",
+                "interactingDrugs": ["Scopolamine", "Diphenhydramine"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Severe dissociation and delusions.",
+                "interactingDrugs": ["Scopolamine", "Datura", "Diphenhydramine"]
+            }
+        ],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "2dffbcc5-0c4c-4f51-80a6-41dd5513b5b6",
+        "names": ["Lidocaine", "Xylocaine", "Lido"],
+        "type": "local anesthetic",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Local anesthesia", "Pain relief"],
+        "harmReductionTips": [
+            "Use only as directed by a healthcare provider.",
+            "Do not apply to large areas of skin.",
+            "Avoid excessive or repeated use.",
+            "Consult a doctor for prolonged use."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "825cc0d1-32fd-46e7-bd21-edb7e846cd2c",
+        "names": ["Kratom"],
+        "type": "opioid",
+        "lacingPrevalence": null,
+        "testingKit": "https://www.kratomscience.com/kratom-test-kit",
+        "effects": ["Pain relief", "Relaxation", "Mild euphoria"],
+        "harmReductionTips": [
+            "Use only as prescribed and avoid high doses.",
+            "Avoid mixing with alcohol or sedatives.",
+            "Store securely to prevent misuse.",
+            "Carry naloxone in case of overdose."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "DANGEROUS",
+                "description": "Severe confusion and increased risk of accidents.",
+                "interactingDrugs": ["Alcohol", "Kratom"]
+            }
+        ],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "115e5371-8b1d-4e7e-ad3d-e670bb81888d",
+        "names": ["Kava", "Piper methysticum", "Kava Kava", "Awa"],
+        "type": "anxiolytic",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Relaxation", "Anxiety relief", "Mild sedation"],
+        "harmReductionTips": [
+            "Use only as needed and in safe settings.",
+            "Avoid combining with alcohol or other drugs.",
+            "Do not exceed recommended doses.",
+            "Discuss any side effects with your doctor."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "b47200bb-10f9-43f1-9f07-204bc16ba182",
+        "names": ["5-HTP", "5-Hydroxytryptophan"],
+        "type": "supplement",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Mood enhancement", "Sleep support"],
+        "harmReductionTips": [
+            "Use as directed by a healthcare provider.",
+            "Do not exceed recommended daily dosages.",
+            "Take as part of a balanced diet.",
+            "Monitor for any side effects."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "DANGEROUS",
+                "description": "Serotonin syndrome due to excessive serotonin levels.",
+                "interactingDrugs": ["MDMA", "5-HTP"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Increased serotonin syndrome risk.",
+                "interactingDrugs": ["DMT", "5-HTP"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Severe hyperthermia and serotonin syndrome risk.",
+                "interactingDrugs": ["Mephedrone", "MDMA", "5-HTP"]
+            }
+        ],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "75512364-b552-461c-8253-0dfae309792f",
+        "names": ["Ginseng", "Panax", "Red Ginseng"],
+        "type": "adaptogen",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Increased energy", "Stress reduction", "Improved focus"],
+        "harmReductionTips": [
+            "Use as part of a balanced routine.",
+            "Consult a healthcare provider before use.",
+            "Avoid excessive use to prevent tolerance.",
+            "Monitor for any side effects or interactions."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "87b26ad5-cb15-4ba4-a2ba-1f4d289d3e9a",
+        "names": ["Barbiturates", "Downers", "Barbs", "Reds", "Blue Devils"],
+        "type": "depressant",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Sedation", "Anxiety relief", "Sleep induction"],
+        "harmReductionTips": [
+            "Dose carefully and avoid excessive use.",
+            "Do not mix with alcohol or other depressants.",
+            "Use in a safe environment with trusted people.",
+            "Carry naloxone in case of overdose risk."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "LETHAL",
+                "description": "Respiratory depression and loss of consciousness.",
+                "interactingDrugs": ["Alcohol", "Barbiturates"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Intensified sedation and risk of overdose.",
+                "interactingDrugs": ["Xanax", "Barbiturates"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Overwhelming sedative effects causing respiratory arrest.",
+                "interactingDrugs": ["Barbiturates", "Phenibut"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Combined respiratory depression and risk of overdose.",
+                "interactingDrugs": ["Barbiturates", "Methadone"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Intensified sedation and confusion, increasing overdose risk.",
+                "interactingDrugs": ["Alcohol", "Barbiturates", "Phenibut"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Severe liver toxicity and risk of death.",
+                "interactingDrugs": ["Alcohol", "Acetaminophen", "Barbiturates"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Respiratory arrest due to depressant combination.",
+                "interactingDrugs": ["Alcohol", "Flunitrazepam", "Barbiturates"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Respiratory arrest and coma.",
+                "interactingDrugs": ["Alcohol", "Xanax", "Barbiturates"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Fatal respiratory failure from synergistic sedatives.",
+                "interactingDrugs": ["Alcohol", "Fentanyl", "Barbiturates"]
+            }
+        ],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "f12f6b5d-54bb-4412-a903-f699f9570e72",
+        "names": ["Methadone", "Dolophine", "Meth"],
+        "type": "opioid",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Pain relief", "Relaxation", "Euphoria"],
+        "harmReductionTips": [
+            "Use only as prescribed and avoid high doses.",
+            "Avoid mixing with alcohol or sedatives.",
+            "Store securely to prevent misuse.",
+            "Carry naloxone in case of overdose."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "LETHAL",
+                "description": "Deadly overdose risk due to combined respiratory depression.",
+                "interactingDrugs": ["Alcohol", "Methadone"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Deadly respiratory depression from combined opioids.",
+                "interactingDrugs": ["Fentanyl", "Methadone"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Respiratory depression and prolonged sedation.",
+                "interactingDrugs": ["Methadone", "Phenibut"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Respiratory arrest due to combined opioid effects.",
+                "interactingDrugs": ["Buprenorphine", "Methadone"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Combined respiratory depression and risk of overdose.",
+                "interactingDrugs": ["Barbiturates", "Methadone"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Respiratory arrest and severe sedation.",
+                "interactingDrugs": ["Buprenorphine", "Alcohol", "Methadone"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Respiratory arrest from opioid and sedative combination.",
+                "interactingDrugs": ["Xanax", "Fentanyl", "Methadone"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Toxic effects and fatal liver failure.",
+                "interactingDrugs": ["Alcohol", "Acetaminophen", "Methadone"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Respiratory failure and cardiac arrest.",
+                "interactingDrugs": ["Buprenorphine", "Fentanyl", "Methadone"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Respiratory arrest from opioid and sedative combination.",
+                "interactingDrugs": ["Alcohol", "Xanax", "Methadone"]
+            }
+        ],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "ce686cbc-08af-4899-afe8-942a9c01440d",
+        "names": ["Phenibut", "Noofen", "PB"],
+        "type": "gabapentinoid",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Relaxation", "Anxiety relief", "Mild euphoria"],
+        "harmReductionTips": [
+            "Use only as prescribed and in moderation.",
+            "Avoid mixing with alcohol or other depressants.",
+            "Do not stop abruptly to prevent withdrawal symptoms.",
+            "Discuss any side effects with your doctor."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "LETHAL",
+                "description": "Combined sedative effects leading to respiratory failure.",
+                "interactingDrugs": ["Alcohol", "Phenibut"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Deadly due to combined respiratory depression.",
+                "interactingDrugs": ["Buprenorphine", "Phenibut"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Overwhelming sedative effects causing respiratory arrest.",
+                "interactingDrugs": ["Barbiturates", "Phenibut"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Respiratory depression and prolonged sedation.",
+                "interactingDrugs": ["Methadone", "Phenibut"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Intensified sedation and confusion, increasing overdose risk.",
+                "interactingDrugs": ["Alcohol", "Barbiturates", "Phenibut"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Respiratory failure due to synergistic sedative effects.",
+                "interactingDrugs": ["Xanax", "Fentanyl", "Phenibut"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Severe confusion and unpredictable sedation.",
+                "interactingDrugs": ["Scopolamine", "Alcohol", "Phenibut"]
+            }
+        ],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "6667d552-8ec6-43e2-941c-f7180552452c",
+        "names": ["Etizolam", "Etilaam", "Street Benzos"],
+        "type": "benzodiazepine",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Anxiety relief", "Sedation", "Relaxation"],
+        "harmReductionTips": [
+            "Use only as prescribed by a doctor.",
+            "Avoid mixing with alcohol or other depressants.",
+            "Do not stop abruptly to avoid withdrawal.",
+            "Store securely to prevent misuse."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "6dc2f436-879b-4a76-b9e3-ee21629132b1",
+        "names": ["Alpha-PVP", "Flakka", "Gravel"],
+        "type": "stimulant",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Increased energy", "Euphoria", "Alertness", "Aggression"],
+        "harmReductionTips": [
+            "Avoid frequent use to reduce addiction risk.",
+            "Test for contaminants like fentanyl.",
+            "Use clean tools to avoid infections.",
+            "Stay hydrated and avoid mixing with alcohol."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "LETHAL",
+                "description": "Heart failure due to excessive stimulant use.",
+                "interactingDrugs": ["Cocaine", "Alpha-PVP"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Unpredictable effects, risk of psychosis, and hyperthermia.",
+                "interactingDrugs": ["Synthetic Cannabinoids", "Alpha-PVP"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Severe cardiovascular strain, hyperthermia, and dehydration.",
+                "interactingDrugs": ["MDMA", "Alpha-PVP"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Severe cardiovascular strain and stroke risk.",
+                "interactingDrugs": ["Adderall", "Mephedrone", "Alpha-PVP"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Heart failure due to combined stimulant overload.",
+                "interactingDrugs": ["Cocaine", "Methamphetamine", "Alpha-PVP"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Severe agitation and cardiovascular risk.",
+                "interactingDrugs": ["Cocaine", "Adderall", "Alpha-PVP"]
+            },
+            {
+                "type": "LETHAL",
+                "description": "Cardiovascular collapse and heart attack.",
+                "interactingDrugs": [
+                    "Mephedrone",
+                    "Methamphetamine",
+                    "Alpha-PVP"
+                ]
+            }
+        ],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "894b028b-2d1f-4746-b1fe-689d1de447f4",
+        "names": ["Bromo-DragonFLY", "Dragonfly", "B-DFLY"],
+        "type": "hallucinogen",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Hallucinations", "Altered perception", "Euphoria"],
+        "harmReductionTips": [
+            "Use in a safe and familiar environment.",
+            "Have a sober trip sitter if inexperienced.",
+            "Start with a low dose to gauge effects.",
+            "Avoid if prone to mental health issues."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Overwhelming hallucinations and dissociation.",
+                "interactingDrugs": ["Salvia Divinorum", "Bromo-DragonFLY"]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Extreme paranoia and dissociation.",
+                "interactingDrugs": [
+                    "Cannabis",
+                    "Salvia Divinorum",
+                    "Bromo-DragonFLY"
+                ]
+            },
+            {
+                "type": "PSYCHOLOGICALLY_DIFFICULT",
+                "description": "Intense paranoia and auditory hallucinations.",
+                "interactingDrugs": [
+                    "Cannabis",
+                    "Methamphetamine",
+                    "Bromo-DragonFLY"
+                ]
+            }
+        ],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "54d03d99-79df-429a-9e2d-658de968d0cc",
+        "names": ["Catha Edulis", "Khat", "Qat"],
+        "type": "stimulant",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Increased energy", "Euphoria", "Alertness"],
+        "harmReductionTips": [
+            "Avoid frequent use to reduce addiction risk.",
+            "Test for contaminants like fentanyl.",
+            "Use clean tools to avoid infections.",
+            "Stay hydrated and avoid mixing with alcohol."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "b9492d43-ca88-48e6-968b-ec894278d5e4",
+        "names": ["Benzylpiperazine", "BZP", "Legal Ecstasy"],
+        "type": "stimulant",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Euphoria", "Increased energy", "Alertness"],
+        "harmReductionTips": [
+            "Avoid frequent use to reduce addiction risk.",
+            "Test for contaminants like fentanyl.",
+            "Use clean tools to avoid infections.",
+            "Stay hydrated and avoid mixing with alcohol."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "LETHAL",
+                "description": "Extreme cardiovascular failure.",
+                "interactingDrugs": ["Methamphetamine", "Benzylpiperazine"]
+            }
+        ],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "6c0d8826-fcc2-4d5b-990f-de63cfac3920",
+        "names": ["Fluoroamphetamine", "4-FA", "Flux"],
+        "type": "stimulant",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Increased energy", "Euphoria", "Alertness"],
+        "harmReductionTips": [
+            "Avoid frequent use to reduce addiction risk.",
+            "Test for contaminants like fentanyl.",
+            "Use clean tools to avoid infections.",
+            "Stay hydrated and avoid mixing with alcohol."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "7c576217-55ce-4b6e-85b4-6d27d393762e",
+        "names": ["Chlordiazepoxide", "Librium"],
+        "type": "benzodiazepine",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Anxiety relief", "Relaxation", "Sedation"],
+        "harmReductionTips": [
+            "Use only as prescribed by a doctor.",
+            "Avoid mixing with alcohol or other depressants.",
+            "Do not stop abruptly to avoid withdrawal.",
+            "Store securely to prevent misuse."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "b5e99e9b-4b47-4021-9df2-612dcac02660",
+        "names": ["Poppers", "Amyl Nitrate", "Room Odorizers"],
+        "type": "inhalant",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": [
+            "Relaxation",
+            "Euphoria",
+            "Dizziness",
+            "Short-lived head rush"
+        ],
+        "harmReductionTips": [
+            "Use in well-ventilated areas to avoid oxygen deprivation.",
+            "Do not mix with other substances.",
+            "Avoid excessive or prolonged use.",
+            "Seek help if feeling unwell after use."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "14520094-1159-45e2-9d3a-b44ed58d0127",
+        "names": ["Harmine", "Banisteriopsis caapi"],
+        "type": "MAOI",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Spiritual experiences", "Mild euphoria"],
+        "harmReductionTips": [
+            "Follow a strict diet to avoid dangerous interactions.",
+            "Do not mix with SSRIs or other antidepressants.",
+            "Avoid alcohol and certain over-the-counter drugs.",
+            "Consult a doctor regularly while using."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "878a1e59-0fe0-49e7-b0e4-7814b072e35b",
+        "names": ["AMT", "Alpha-Methyltryptamine"],
+        "type": "hallucinogen",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Hallucinations", "Euphoria", "Increased energy"],
+        "harmReductionTips": [
+            "Use in a safe and familiar environment.",
+            "Have a sober trip sitter if inexperienced.",
+            "Start with a low dose to gauge effects.",
+            "Avoid if prone to mental health issues."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "4dcf68c1-6cab-48d6-82bd-cef87083520e",
+        "names": ["PMMA", "Paramethoxymethamphetamine", "Death"],
+        "type": "stimulant",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Increased energy", "Euphoria", "Severe side effects"],
+        "harmReductionTips": [
+            "Avoid frequent use to reduce addiction risk.",
+            "Test for contaminants like fentanyl.",
+            "Use clean tools to avoid infections.",
+            "Stay hydrated and avoid mixing with alcohol."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [],
+        "laces": [
+            {
+                "name": "MDMA",
+                "prevalence": null
+            }
+        ]
+    },
+    {
+        "id": "aa2a97ee-ede8-431d-a85c-2e704c04421d",
+        "names": ["Enhanced Kratom"],
+        "type": "opioid",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Pain relief", "Relaxation", "Euphoria"],
+        "harmReductionTips": [
+            "Use only as prescribed and avoid high doses.",
+            "Avoid mixing with alcohol or sedatives.",
+            "Store securely to prevent misuse.",
+            "Carry naloxone in case of overdose."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [],
+        "lacedBy": [],
+        "laces": []
+    },
+    {
+        "id": "39d8d70e-6979-4436-b033-e197bbaba9ae",
+        "names": ["SSRIs", "Lexapro", "Prozac", "Zoloft", "Paxil", "Celexa"],
+        "type": "antidepressant",
+        "lacingPrevalence": null,
+        "testingKit": null,
+        "effects": ["Mood stabilization", "Depression treatment"],
+        "harmReductionTips": [
+            "Take as prescribed by a healthcare provider.",
+            "Do not stop abruptly to avoid withdrawal symptoms.",
+            "Monitor for changes in mood or behavior.",
+            "Discuss side effects with your doctor."
+        ],
+        "halfLife": null,
+        "onsetTime": null,
+        "dosages": [],
+        "interactions": [
+            {
+                "type": "DANGEROUS",
+                "description": "Increased risk of serotonin syndrome and hypertension.",
+                "interactingDrugs": ["Ibogaine", "SSRIs"]
+            },
+            {
+                "type": "DANGEROUS",
+                "description": "Severe serotonin syndrome with hyperthermia.",
+                "interactingDrugs": ["MAOIs", "MDMA", "SSRIs"]
+            }
+        ],
+        "lacedBy": [],
+        "laces": []
+    }
+]
